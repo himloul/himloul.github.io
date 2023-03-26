@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://himloul.github.io/
 languageCode: en-us
 title: Himloul
 theme: PaperMod
@@ -45,23 +45,23 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
+    favicon: "icons/favicon.ico"
+    favicon16x16: "icons/favicon-16x16.png"
+    favicon32x32: "icons/favicon-32x32.png"
+    apple_touch_icon: "icons/apple-touch-icon.png"
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "Hamza imloul"
+    icon: icons/apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: Hamza imloul
+    subtitle: "Hello, my name is Hamza and I am currently keeping track of my learning progress and personal projects through this blog. Alongside creating content on ML. I also work as a **NLP engineer** and helping my team in Applied research and Data science."
+    imageUrl: "profile.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -73,16 +73,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "\U0001F44B Welcome to Hamza's blog"
+    Content: Hello, my name is Hamza and I am currently keeping track of my learning progress and personal projects through this blog. Alongside creating content on ML, I also work as a NLP engineer and helping my team in Applied research and Data science.
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
+      url: "https://twitter.com/hamzaonde"
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/himloul"
 
   analytics:
     google:
@@ -118,10 +118,17 @@ menu:
       name: categories
       url: /categories/
       weight: 10
+
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
+
     - identifier: tags
       name: tags
       url: /tags/
       weight: 20
+
     - identifier: example
       name: example.org
       url: https://example.org
