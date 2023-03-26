@@ -13,12 +13,16 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Mar 2023 20:53:44 +0000</lastBuildDate><atom:link href="https://himloul.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First_post</title>
+      <title>Good resources for learning Data science</title>
       <link>https://himloul.github.io/posts/first_post/</link>
       <pubDate>Sat, 25 Mar 2023 20:53:44 +0000</pubDate>
       
       <guid>https://himloul.github.io/posts/first_post/</guid>
-      <description>Hi there, this is the first post</description>
+      <description>I share with you, some of the resources I considered in my recent years, to learn data science and operations research, outside of my academic curriculum.
+Awesome Links 😎 Data science Deep learning Deep learning Cheat sheet - A summary of deep learning concepts shared by Stanford researchers.
+Learn TensorFlow and deep learning, without a Ph.D.
+TensorFlow tutorials
+Understanding Deep Learning, by Simon J.D. Prince CS231n Convolutional Neural Networks for Visual Recognition - Stanford MLOps Made with ML</description>
     </item>
     
   </channel>
