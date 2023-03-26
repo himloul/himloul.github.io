@@ -1,6 +1,9 @@
 ---
 title: "Good resources for learning Data science"
+author: "Hamza imloul"
 date: 2023-03-25T20:53:44Z
+ShowToc: true
+tags: ["Machine learning", "Data science"]
 ---
 
 
@@ -46,6 +49,7 @@ I share with you, some of the resources I considered in my recent years, to lear
 [Corey Schafer - Youtube](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g)  
 
 ### Design
+
 [Modelling in Blender a Human Hand](https://topologyguides.com/)    
 
 ### Game Development

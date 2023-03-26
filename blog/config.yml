@@ -83,6 +83,8 @@ params:
       url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/himloul"
+    - name: linkedin
+      url: "https://www.linkedin.com/hamza-imloul"
 
   analytics:
     google:
@@ -122,17 +124,22 @@ menu:
     - identifier: search
       name: search
       url: /search/
-      weight: 10
+      weight: 20
 
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 30
+
+    - identifier: resume
+      name: resume
+      url: /resume/
+      weight: 40
 
     - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+      name: LinkedIn
+      url: https://www.linkedin.com/hamza-imloul/
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
