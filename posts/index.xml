@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Himloul</title>
+    <title>Posts on Hamza imloul</title>
     <link>https://himloul.github.io/posts/</link>
-    <description>Recent content in Posts on Himloul</description>
+    <description>Recent content in Posts on Hamza imloul</description>
     <image>
-      <title>Himloul</title>
+      <title>Hamza imloul</title>
       <url>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Mar 2023 20:53:44 +0000</lastBuildDate><atom:link href="https://himloul.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capacitated VRP of taxis service</title>
+      <link>https://himloul.github.io/posts/cvrp_malta/</link>
+      <pubDate>Mon, 27 Mar 2023 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/cvrp_malta/</guid>
+      <description>Introduction The Capacitated Vehicle Routing Problem (CVRP) is a variant of the well-known Vehicle Routing Problem (VRP) in which each vehicle has a limited capacity and the aim is to find the optimal routes for a fleet of vehicles to deliver goods to a set of customers while minimizing the total distance traveled.
+Modelling the problem In the context of a taxi service, the CVRP can be used to determine the most efficient routes for taxis to pick up and drop off passengers while taking into account the capacity of each taxi (i.</description>
+    </item>
+    
+    <item>
+      <title>Mobility Analytics using R</title>
+      <link>https://himloul.github.io/posts/mobility_analytics/</link>
+      <pubDate>Mon, 27 Mar 2023 20:14:00 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/mobility_analytics/</guid>
+      <description>Hi, In this technical blog, we will explore the use of R for fleet mobility analytics. This case study is based on a project that was undertaken for a transportation company with a fleet of 102 trucks and 91 drivers. The objective of the project was to develop a real-time tracking tool for the moving resources.
+R was chosen as the programming language for this project because of its versatility and power as an end-to-end solution.</description>
+    </item>
+    
     <item>
       <title>Good resources for learning Data science</title>
-      <link>https://himloul.github.io/posts/first_post/</link>
+      <link>https://himloul.github.io/posts/good_resources/</link>
       <pubDate>Sat, 25 Mar 2023 20:53:44 +0000</pubDate>
       
-      <guid>https://himloul.github.io/posts/first_post/</guid>
+      <guid>https://himloul.github.io/posts/good_resources/</guid>
       <description>I share with you, some of the resources I considered in my recent years, to learn data science and operations research, outside of my academic curriculum.
 Awesome Links 😎 Data science Deep learning Deep learning Cheat sheet - A summary of deep learning concepts shared by Stanford researchers.
 Learn TensorFlow and deep learning, without a Ph.D.

@@ -1,23 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Himloul</title>
+    <title>Tags on Hamza imloul</title>
     <link>https://himloul.github.io/tags/</link>
-    <description>Recent content in Tags on Himloul</description>
+    <description>Recent content in Tags on Hamza imloul</description>
     <image>
-      <title>Himloul</title>
+      <title>Hamza imloul</title>
       <url>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Mar 2023 20:53:44 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytics</title>
+      <link>https://himloul.github.io/tags/analytics/</link>
+      <pubDate>Mon, 27 Mar 2023 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Data science</title>
       <link>https://himloul.github.io/tags/data-science/</link>
-      <pubDate>Sat, 25 Mar 2023 20:53:44 +0000</pubDate>
+      <pubDate>Mon, 27 Mar 2023 20:45:56 +0000</pubDate>
       
       <guid>https://himloul.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization</title>
+      <link>https://himloul.github.io/tags/optimization/</link>
+      <pubDate>Mon, 27 Mar 2023 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/tags/optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://himloul.github.io/tags/portfolio/</link>
+      <pubDate>Mon, 27 Mar 2023 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/tags/portfolio/</guid>
       <description></description>
     </item>
     
@@ -27,6 +54,15 @@
       <pubDate>Sat, 25 Mar 2023 20:53:44 +0000</pubDate>
       
       <guid>https://himloul.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Playbook</title>
+      <link>https://himloul.github.io/tags/playbook/</link>
+      <pubDate>Sat, 25 Mar 2023 20:53:44 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/tags/playbook/</guid>
       <description></description>
     </item>
     

@@ -2,22 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://himloul.github.io/tags/data-science/</loc>
-    <lastmod>2023-03-25T20:53:44+00:00</lastmod>
+    <loc>https://himloul.github.io/tags/analytics/</loc>
+    <lastmod>2023-03-27T20:45:56+00:00</lastmod>
   </url><url>
-    <loc>https://himloul.github.io/posts/first_post/</loc>
-    <lastmod>2023-03-25T20:53:44+00:00</lastmod>
+    <loc>https://himloul.github.io/posts/cvrp_malta/</loc>
+    <lastmod>2023-03-27T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/tags/data-science/</loc>
+    <lastmod>2023-03-27T20:45:56+00:00</lastmod>
   </url><url>
     <loc>https://himloul.github.io/</loc>
+    <lastmod>2023-03-27T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/tags/optimization/</loc>
+    <lastmod>2023-03-27T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/tags/portfolio/</loc>
+    <lastmod>2023-03-27T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/posts/</loc>
+    <lastmod>2023-03-27T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/tags/</loc>
+    <lastmod>2023-03-27T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/posts/mobility_analytics/</loc>
+    <lastmod>2023-03-27T20:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/posts/good_resources/</loc>
     <lastmod>2023-03-25T20:53:44+00:00</lastmod>
   </url><url>
     <loc>https://himloul.github.io/tags/machine-learning/</loc>
     <lastmod>2023-03-25T20:53:44+00:00</lastmod>
   </url><url>
-    <loc>https://himloul.github.io/posts/</loc>
-    <lastmod>2023-03-25T20:53:44+00:00</lastmod>
-  </url><url>
-    <loc>https://himloul.github.io/tags/</loc>
+    <loc>https://himloul.github.io/tags/playbook/</loc>
     <lastmod>2023-03-25T20:53:44+00:00</lastmod>
   </url><url>
     <loc>https://himloul.github.io/categories/</loc>
