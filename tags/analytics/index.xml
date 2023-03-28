@@ -11,11 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Mar 2023 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Capacitated VRP of taxis service</title>
       <link>https://himloul.github.io/posts/cvrp_malta/</link>
-      <pubDate>Mon, 27 Mar 2023 20:45:56 +0000</pubDate>
+      <pubDate>Mon, 14 Jun 2021 20:45:56 +0000</pubDate>
       
       <guid>https://himloul.github.io/posts/cvrp_malta/</guid>
       <description>Introduction The Capacitated Vehicle Routing Problem (CVRP) is a variant of the well-known Vehicle Routing Problem (VRP) in which each vehicle has a limited capacity and the aim is to find the optimal routes for a fleet of vehicles to deliver goods to a set of customers while minimizing the total distance traveled.
@@ -25,7 +25,7 @@ Modelling the problem In the context of a taxi service, the CVRP can be used to 
     <item>
       <title>Mobility Analytics using R</title>
       <link>https://himloul.github.io/posts/mobility_analytics/</link>
-      <pubDate>Mon, 27 Mar 2023 20:14:00 +0000</pubDate>
+      <pubDate>Tue, 13 Oct 2020 20:14:00 +0000</pubDate>
       
       <guid>https://himloul.github.io/posts/mobility_analytics/</guid>
       <description>Hi, In this technical blog, we will explore the use of R for fleet mobility analytics. This case study is based on a project that was undertaken for a transportation company with a fleet of 102 trucks and 91 drivers. The objective of the project was to develop a real-time tracking tool for the moving resources.

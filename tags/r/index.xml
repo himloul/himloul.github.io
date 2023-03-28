@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>R on Hamza imloul</title>
+    <link>https://himloul.github.io/tags/r/</link>
+    <description>Recent content in R on Hamza imloul</description>
+    <image>
+      <title>Hamza imloul</title>
+      <url>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Aug 2020 00:04:05 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated Data processing for Trip metrics reporting</title>
+      <link>https://himloul.github.io/posts/preprocessing_r/</link>
+      <pubDate>Thu, 20 Aug 2020 00:04:05 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/preprocessing_r/</guid>
+      <description>Introduction In the fast-paced world of transportation and logistics, it&amp;rsquo;s crucial to have accurate and up-to-date information about the metrics of your trips. This information helps you make informed decisions, optimize routes, and improve customer satisfaction. But manually processing and reporting on this data can be a time-consuming and tedious task. In this article, we&amp;rsquo;ll show you how you can use R Markdown to automate the data processing and reporting of trip metrics.</description>
+    </item>
+    
+  </channel>
+</rss>
