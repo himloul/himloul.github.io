@@ -14,12 +14,18 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
-  description: "ExampleSite description"
+  description: "Hamza's Blog"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Hamza Imloul
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"

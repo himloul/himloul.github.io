@@ -1,7 +1,7 @@
 ---
 title: "Mobility Analytics using R"
 author: "Hamza imloul"
-date: 2023-03-27T20:14:00Z
+date: 2020-10-13T20:14:00Z
 ShowToc: true
 tags: ["Data science", "Analytics", "Portfolio"]
 ---
@@ -14,20 +14,20 @@ R was chosen as the programming language for this project because of its versati
 <img src="/images/img1-min.png" width="500px"/>
 </p>  
 
-# Context  
+## Context  
 The process of developing the application began by understanding the business needs and workflow of the company, as well as the challenges faced by the users. The data was then prepared and valuable datasets were identified. R Shiny was used to develop the web-based application, which was connected to the APIs of Canbus to customize the experience. The application was designed to be easy to use and interactive, and to automate the process of data collection, manipulation, and visualization.  
 
 ## Business case
 Before developing a fleet management model, it is important to understand the business objectives and how the company expects to use and benefit from the model. To effectively meet the needs of all stakeholders, including dispatchers, operators, and management, it is important to understand their expectations and challenges. These individuals use the fleet management platform on a daily basis and collaborate with many drivers and clients, so it is important that the platform is user-friendly and meets their specific needs to avoid unnecessary stress.  
 
-# Questions & needs  
+## Questions & needs  
 Some of the key objectives of the fleet management system include:
 
 - Organizing the fleet and improving its overall efficiency
 - Tracking the performance of the fleet, including metrics such as fuel consumption and maintenance needs
 - Identifying and reducing waste in the transportation process, such as unnecessary vehicle idle time and inefficient routes.
 
-# Action  
+## Action  
 To develop the fleet management solution, the following steps were taken:
 
 - Gathered input from stakeholders to understand their challenges and needs
@@ -39,14 +39,14 @@ To develop the fleet management solution, the following steps were taken:
 - Automated the process of data collection, manipulation, and visualization
 - Deployed the solution as a web-based application.
 
-## Data preparation
+### Data preparation
 To prepare the data for the fleet management solution, the following steps were taken:
 
 - Defined points of interest using latitude and longitude coordinates
 - Created geofencing zones to define specific areas of interest
 - Organized the master data of resources, including drivers, trucks, trailers, and points of interest.
 
-# Result  
+## Result  
 As a result of the fleet management project, the following benefits were achieved:
 
 - The application is web-based, allowing authenticated users to visually control the movement of the company's assets

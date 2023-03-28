@@ -1,8 +1,8 @@
 ---
-title: "Sentiment_analysis"
+title: "Sentiment Analysis with NLTK"
 author: "Hamza imloul"
-date: 2023-03-28T00:12:00Z
-draft: true
+date: 2021-07-28T00:12:00Z
+# draft: true
 ShowToc: true
 tags: ["Machine learning", "Data science" , "NLP"]
 ---

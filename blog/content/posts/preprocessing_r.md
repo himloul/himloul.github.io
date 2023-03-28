@@ -1,21 +1,23 @@
 ---
 title: "Automated Data processing for Trip metrics reporting"
 author: "Hamza imloul"
-date: 2023-03-28T00:04:05Z
-draft: true
+date: 2020-08-20T00:04:05Z
+# draft: true
 ShowToc: true
 tags: ["Data science", "R", "Portfolio"]
 ---
 
-# Introduction
+## Introduction
 
 In the fast-paced world of transportation and logistics, it's crucial to have accurate and up-to-date information about the metrics of your trips. This information helps you make informed decisions, optimize routes, and improve customer satisfaction. But manually processing and reporting on this data can be a time-consuming and tedious task. In this article, we'll show you how you can use R Markdown to automate the data processing and reporting of trip metrics.
+
+here is my [article](https://rpubs.com/himl/Transportation_operations_analysis)  
 
 <p align="center">
 <img src="/images/report_waste.png" width="500px"/>  
 </p>
 
-# Data Preparation
+## Data Preparation
 
 Before we start with the automated data processing, we need to prepare our data. In this example, we'll use a sample dataset of trip information, including the start and end times, distances, and number of passengers. This data can be stored in a CSV file, which we'll read into R using the `read.csv()` function.
 
@@ -23,7 +25,7 @@ Before we start with the automated data processing, we need to prepare our data.
 trip_data <- read.csv("trip_data.csv")
 ```
 
-# Processing the Data
+## Processing the Data
 
 Next, we'll use R's powerful data processing and manipulation capabilities to calculate the metrics we need for our report. For example, we'll calculate the total distance traveled, the average speed, and the total revenue generated. We'll use the `dplyr` library to make these calculations as clean and efficient as possible.
 
@@ -36,7 +38,7 @@ trip_metrics <- trip_data %>%
          revenue = distance * 0.1 * num_passengers)
 ```
 
-# Generating the Report
+## Generating the Report
 
 Now that we've processed the data, we can use R Markdown to generate our report. R Markdown is a format for creating reproducible reports, and it allows us to embed R code directly into the report. This means we can easily include our data processing code and the results of our calculations in our report.
 
@@ -62,10 +64,6 @@ sum(trip_metrics$revenue)
 
 
 
-Conclusion
+## Conclusion
 
 In this article, we've shown you how to automate the data processing and reporting of trip metrics using R Markdown. By using this powerful tool, you can save time and resources, and ensure
-
-## Context
-
-here is my [article](https://rpubs.com/himl/Transportation_operations_analysis)  

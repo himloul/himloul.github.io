@@ -1,7 +1,7 @@
 ---
 title: "Capacitated VRP of taxis service"
 author: "Hamza imloul"
-date: 2023-03-27T20:45:56Z
+date: 2021-06-14T20:45:56Z
 ShowToc: true
 # katex: true
 math: true
@@ -30,14 +30,10 @@ There are several approaches to solving the CVRP, including exact algorithms suc
 
 In this article, we will use the Hungarian algorithm, an optimization algorithm, to assign a set of n missions to n available trucks.
   
-$$E_{t}$$	set of available Taxis.  
-$$ E_{p} $$	set of available Passengers.  
-$$ E_s $$	set of sources of missions.  
-$$ E_d $$	set of destinations of missions.  
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
+$E_{t}$	: set of available Taxis.  
+$E_{p}$	: set of available Passengers.  
+$E_s$	: set of sources of missions.  
+$E_d$	: set of destinations of missions.  
 
 ## Cost matrix
   

@@ -1,7 +1,7 @@
 ---
 title: "Good resources for learning Data science"
 author: "Hamza imloul"
-date: 2023-03-25T20:53:44Z
+# date: 2021-03-25T20:53:44Z
 ShowToc: true
 tags: ["Machine learning", "Data science", "Playbook"]
 ---
@@ -42,29 +42,29 @@ I share with you, some of the resources I considered in my recent years, to lear
 []()  
 []()  
 
-### Programming
+## Programming
 
 [GeeksForGeeks](https://www.geeksforgeeks.org/)  
 [FreeCodeCamp](https://www.freecodecamp.org/learn)  
 [Corey Schafer - Youtube](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g)  
 
-### Design
+## Design
 
 [Modelling in Blender a Human Hand](https://topologyguides.com/)    
 
-### Game Development
+## Game Development
 [Learn how to make games with LÖVE](https://sheepolution.com/learn)  
 [Aseprite - Pixel art tool](https://www.aseprite.org/)  
 
-### Interactive programming
+## Interactive programming
 [Motion Canvas](https://motioncanvas.io/)  
 
-### Books
+## Books
 
 [Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow](https://www.amazon.fr/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646)  
 [Introduction to Statistical Learning, with R](https://www.ime.unicamp.br/~dias/Intoduction%20to%20Statistical%20Learning.pdf)  
   
-### Challenges
+## Challenges
 
 NASA Space Apps Challenge  
 [Challenges | Inform](https://2020.spaceappschallenge.org/challenges/inform/)  
