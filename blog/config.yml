@@ -1,6 +1,6 @@
 baseURL: https://himloul.github.io/
 languageCode: en-us
-title: Himloul
+title: Hamza imloul
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -60,7 +60,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Hamza imloul
-    subtitle: "Hello, my name is Hamza and I am currently keeping track of my learning progress and personal projects through this blog. Alongside creating content on ML. I also work as a **NLP engineer** and helping my team in Applied research and Data science."
+    subtitle: "Hello, my name is Hamza and I am keeping track of my learning progress and personal projects through this blog. Alongside creating content on ML, I also work as a **NLP engineer** and helping my team in Applied research and Data science."
     imageUrl: "profile.png"
     imageWidth: 120
     imageHeight: 120
@@ -85,6 +85,10 @@ params:
       url: "https://github.com/himloul"
     - name: linkedin
       url: "https://www.linkedin.com/hamza-imloul"
+    - name: mastodon
+      url: "https://sigmoid.social/@himloul"
+    - name: behance
+      url: "https://www.behance.com/himl"
 
   analytics:
     google:
@@ -100,7 +104,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/himloul/himblog/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

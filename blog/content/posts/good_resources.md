@@ -3,7 +3,7 @@ title: "Good resources for learning Data science"
 author: "Hamza imloul"
 date: 2023-03-25T20:53:44Z
 ShowToc: true
-tags: ["Machine learning", "Data science"]
+tags: ["Machine learning", "Data science", "Playbook"]
 ---
 
 
