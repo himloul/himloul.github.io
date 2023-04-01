@@ -53,10 +53,13 @@ I share with you, some of the resources I considered in my recent years, to lear
 [Modelling in Blender a Human Hand](https://topologyguides.com/)    
 
 ## Game Development
-[Learn how to make games with LÖVE](https://sheepolution.com/learn)  
-[Aseprite - Pixel art tool](https://www.aseprite.org/)  
+
+[Learn how to make games with LÖVE](https://sheepolution.com/learn) - Some tutorials to start creating games  
+[Aseprite - Pixel art tool](https://www.aseprite.org/) - Animated sprite editor and Pixel art tool  
+[GBAdev](http://gbadev.net/) - GBA development community
 
 ## Interactive programming
+
 [Motion Canvas](https://motioncanvas.io/)  
 
 ## Books

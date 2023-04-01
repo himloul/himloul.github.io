@@ -9,7 +9,7 @@ tags: ["Machine learning", "Data science" , "NLP"]
 
 ## Methodology
 
-We ran a lexicon-based sentiment analysis (eg. NLTK Vader Sentiment Analyser) on the textual data. then report and discuss the results. Does the lexicon sentiment score associate with the venue ratings provided by the users?
+We ran a lexicon-based sentiment analysis (eg. `NLTK` Vader Sentiment Analyser) on the textual data. then report and discuss the results. Does the lexicon sentiment score associate with the venue ratings provided by the users?
 
 ## Pre-processing
 
@@ -21,8 +21,15 @@ We ran a lexicon-based sentiment analysis (eg. NLTK Vader Sentiment Analyser) on
 
 ## Modelling
 
-Method 1 : Bag of Words.
-Method 2 : TF-IDF (term frequency–inverse document frequency).
+Method 1 : [Bag of Words](#method-1-bag-of-words).  
+Method 2 : [TF-IDF](#method-2-tf-idf) (term frequency–inverse document frequency).  
+Method 3 : [BERT](#method-3-bert)
+
+### Method 1: Bag of words
+
+### Method 2: TF-IDF
+
+### Method 3: BERT
 
 ## Result
 
