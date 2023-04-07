@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jul 2021 00:12:00 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Sep 2021 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Map Visualized the locations of a research center members</title>
+      <link>https://himloul.github.io/posts/bmsc_map/</link>
+      <pubDate>Wed, 22 Sep 2021 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/bmsc_map/</guid>
+      <description>Context Used different types of users/layers, so it would be ideal to have different colored clusters to reflect that. In some cases, there will be more than one user cluster in the same geographic location, so we need to compensate for these clusters. the generated map must then be integrated into the website.
+Data Workflow Result {% include base_path %} Link to the website.</description>
+    </item>
+    
     <item>
       <title>Sentiment Analysis with NLTK</title>
       <link>https://himloul.github.io/posts/sentiment_analysis/</link>

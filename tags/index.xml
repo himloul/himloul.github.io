@@ -11,13 +11,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jul 2021 00:12:00 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Sep 2021 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytics</title>
+      <link>https://himloul.github.io/tags/analytics/</link>
+      <pubDate>Wed, 22 Sep 2021 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Data science</title>
       <link>https://himloul.github.io/tags/data-science/</link>
-      <pubDate>Wed, 28 Jul 2021 00:12:00 +0000</pubDate>
+      <pubDate>Wed, 22 Sep 2021 20:45:56 +0000</pubDate>
       
       <guid>https://himloul.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://himloul.github.io/tags/portfolio/</link>
+      <pubDate>Wed, 22 Sep 2021 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/tags/portfolio/</guid>
       <description></description>
     </item>
     
@@ -40,29 +58,11 @@
     </item>
     
     <item>
-      <title>Analytics</title>
-      <link>https://himloul.github.io/tags/analytics/</link>
-      <pubDate>Mon, 14 Jun 2021 20:45:56 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/tags/analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Optimization</title>
       <link>https://himloul.github.io/tags/optimization/</link>
       <pubDate>Mon, 14 Jun 2021 20:45:56 +0000</pubDate>
       
       <guid>https://himloul.github.io/tags/optimization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://himloul.github.io/tags/portfolio/</link>
-      <pubDate>Mon, 14 Jun 2021 20:45:56 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/tags/portfolio/</guid>
       <description></description>
     </item>
     
