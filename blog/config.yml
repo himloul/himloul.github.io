@@ -80,7 +80,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "\U0001F44B Welcome to Hamza's blog"
-    Content: Hello, my name is Hamza and I am currently keeping track of my learning progress and personal projects through this blog. Alongside creating content on ML, I also work as a NLP engineer and helping my team in Applied research and Data science.
+    Content: Hello, my name is Hamza and I am currently keeping track of my learning progress and personal projects through this blog. Alongside creating content on ML, I also work as a NLP engineer and helping my team in Applied research and Data science [more about me **here**](/resume/).
 
   socialIcons:
     - name: twitter
@@ -127,22 +127,22 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
 
     - identifier: search
-      name: search
+      name: Search
       url: /search/
       weight: 20
 
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 30
 
     - identifier: resume
-      name: resume
+      name: Resume
       url: /resume/
       weight: 40
 
