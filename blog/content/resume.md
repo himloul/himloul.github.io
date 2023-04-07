@@ -64,23 +64,19 @@ Technical Experience
 --------------------
 
 My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+:   Designed a web application that takes a csv file containing geolocation of sites, and display them in a shiny spatial map, and the user can downloaded it in a self-contained html file.
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+    👉 [Link](https://himloul.shinyapps.io/bmsc/)
 
 Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+:   I am passionate about Artificial intelligence and NLP, so I am working on giving back to the community by sharing information on my GitHub repos.
 
-Programming Languages
+Programming
 :   `Python` `R` `SQL` `JavaScript` `C` `Lua`  
-    `Pytorch` `TensorFlow` `Scikit-learn` `SciPy` `NLTK` `SpaCy` `Transformers` `FastAPI` `Flask`  
+    
+
+Data science
+:    `Pytorch` `TensorFlow` `Scikit-learn` `SciPy` `NLTK` `SpaCy` `Transformers` `FastAPI` `Flask` `Git/Bash`
 
 [ref]: https://github.com/himloul/superlongprojectname
 
@@ -89,24 +85,24 @@ Education
 ---------
 
 2014-2018
-:   **Eng. Industrial engineering**, Mohammadia School of Engineering, (Rabat, Morocco),
+:   **Eng. Industrial engineering**, Mohammadia School of Engineering, (Rabat),
 
     *Relevant courses: Machine Learning, Operations research, Control theory, Product design*
 
 2012-2014
-:   **Undergraduate degree in Applied Mathematics**; University of Ibn Zohr, (Agadir, Morocco)
+:   **Undergraduate degree in Mathematics**; University of Ibn Zohr, (Agadir, Morocco)
 
     *Extensive courses in Applied Mathematics, Physics and Computer science*
 
 
-Extra Section, Call it Whatever You Want
+Extra
 ----------------------------------------
 
-* Languages:
+### Languages
 
-     * English (Proficient)
-     * French (Proficient)
-     * Arabic (Native)
+**English** (Proficient)  
+**French** (Proficient)  
+**Arabic** (Native)
 
 
 
