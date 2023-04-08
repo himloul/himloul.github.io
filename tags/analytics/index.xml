@@ -19,7 +19,7 @@
       
       <guid>https://himloul.github.io/posts/bmsc_map/</guid>
       <description>Context Used different types of users/layers, so it would be ideal to have different colored clusters to reflect that. In some cases, there will be more than one user cluster in the same geographic location, so we need to compensate for these clusters. the generated map must then be integrated into the website.
-Data Workflow Result {% include base_path %} Link to the website.</description>
+Data Workflow Result Link to the map. Where do our researchers come from? Check out our new interactive map!</description>
     </item>
     
     <item>
