@@ -1,5 +1,5 @@
 ---
-title: "Map Visualized the locations of a research center members"
+title: "Color-Coded Map Shows Research Center Members' Locations"
 author: "Hamza imloul"
 date: 2021-09-22T20:45:56Z
 ShowToc: true
