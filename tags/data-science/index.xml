@@ -23,13 +23,13 @@ Context The software was designed to allow for the use of different types of use
     </item>
     
     <item>
-      <title>Sentiment Analysis with NLTK</title>
+      <title>From TF-IDF to Transformers - Sentiment Analysis as a use case</title>
       <link>https://himloul.github.io/posts/sentiment_analysis/</link>
       <pubDate>Wed, 28 Jul 2021 00:12:00 +0000</pubDate>
       
       <guid>https://himloul.github.io/posts/sentiment_analysis/</guid>
-      <description>Methodology We ran a lexicon-based sentiment analysis (eg. NLTK Vader Sentiment Analyser) on the textual data. then report and discuss the results. Does the lexicon sentiment score associate with the venue ratings provided by the users?
-Pre-processing Pre-process the text review data and create a new column in the data frame which will hold the cleaned review data. Removed ponctuations and digits characters, lemmatization, Stopwords, Stemming, and synonyms. Built a supervised learning model for text analysis.</description>
+      <description>Sentiment analysis is an exciting field of natural language processing that allows us to understand people&amp;rsquo;s attitudes and opinions towards different subjects. In this blog, we&amp;rsquo;ll explore three popular methods for sentiment analysis: Bag of Words, TF-IDF, and BERT. We&amp;rsquo;ll demonstrate how to use these methods in Python and compare their results.
+Methodology We ran a lexicon-based sentiment analysis (eg. NLTK Vader Sentiment Analyser) on the textual data. then report and discuss the results.</description>
     </item>
     
     <item>
