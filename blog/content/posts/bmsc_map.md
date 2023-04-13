@@ -18,7 +18,7 @@ Additionally, a legend was added to the map to make it easy to understand the di
 
 ## Data Workflow 
 
-<!-- ![flow_chart_apps](/images/app_flow_drawing.jpg) -->
+![flow_chart_apps](/images/bmsc.excalidraw.png)  
 
 ## Result
 
