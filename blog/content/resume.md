@@ -8,6 +8,8 @@ ShowReadingTime: false
 ShowWordCount: false
 disableShare: true
 ShowBreadCrumbs: false
+comments: false
+hidemeta: true
 ---
 
 Hey there! I'm a passionate NLP Engineer and Data Scientist with experience in incorporating NLP models in systems, implementing Transformer-based language models, and developing data and analytics web apps. I'm also interested in system design, game development, IoT, robotics, and embedded systems. 

@@ -7,9 +7,7 @@ tags: ["Machine learning", "Data science", "Playbook"]
 ---
 
 
-I share with you, some of the resources I considered in my recent years, to learn data science and operations research, outside of my academic curriculum.
-
-# Awesome Links 😎
+I share with you, some of the resources I considered in my recent years, to learn data science and operations research, outside of my academic curriculum. 😎
 
 ## Data science 
 
