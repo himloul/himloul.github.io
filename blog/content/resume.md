@@ -1,6 +1,6 @@
 ---
 title: "About me 👋"
-Description: "NLP Engineer, Data scientist"
+# Description: "NLP Engineer, Data scientist"
 layout: "resume"
 ShowShareButtons: false
 ShowFullTextinRSS: false
