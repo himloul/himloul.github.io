@@ -19,8 +19,8 @@ I share with you, some of the resources I considered in my recent years, to lear
 [Deep learning Cheat sheet](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-deep-learning) - A summary of deep learning concepts shared by Stanford researchers.   
 [Learn TensorFlow and deep learning, without a Ph.D.](https://cloud.google.com/blog/products/ai-machine-learning/learn-tensorflow-and-deep-learning-without-a-phd)  
 [TensorFlow tutorials](https://www.tensorflow.org/tutorials/)  
-[Understanding Deep Learning, by Simon J.D. Prince](https://udlbook.github.io/udlbook/)
-[CS231n Convolutional Neural Networks for Visual Recognition - Stanford](https://cs231n.github.io/)
+[Understanding Deep Learning, by Simon J.D. Prince](https://udlbook.github.io/udlbook/)  
+[CS231n Convolutional Neural Networks for Visual Recognition - Stanford](https://cs231n.github.io/)  
 []()
  
 ### MLOps
