@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://himloul.github.io/tags/game-developement/</loc>
+    <lastmod>2023-01-14T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/tags/gba/</loc>
+    <lastmod>2023-01-14T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/</loc>
+    <lastmod>2023-01-14T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/posts/gba_game/</loc>
+    <lastmod>2023-01-14T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/tags/portfolio/</loc>
+    <lastmod>2023-01-14T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/posts/</loc>
+    <lastmod>2023-01-14T20:45:56+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/tags/</loc>
+    <lastmod>2023-01-14T20:45:56+00:00</lastmod>
+  </url><url>
     <loc>https://himloul.github.io/tags/analytics/</loc>
     <lastmod>2021-09-22T20:45:56+00:00</lastmod>
   </url><url>
@@ -11,25 +32,13 @@
     <loc>https://himloul.github.io/tags/data-science/</loc>
     <lastmod>2021-09-22T20:45:56+00:00</lastmod>
   </url><url>
-    <loc>https://himloul.github.io/</loc>
-    <lastmod>2021-09-22T20:45:56+00:00</lastmod>
-  </url><url>
-    <loc>https://himloul.github.io/tags/portfolio/</loc>
-    <lastmod>2021-09-22T20:45:56+00:00</lastmod>
-  </url><url>
-    <loc>https://himloul.github.io/posts/</loc>
-    <lastmod>2021-09-22T20:45:56+00:00</lastmod>
-  </url><url>
-    <loc>https://himloul.github.io/tags/</loc>
-    <lastmod>2021-09-22T20:45:56+00:00</lastmod>
-  </url><url>
-    <loc>https://himloul.github.io/posts/sentiment_analysis/</loc>
-    <lastmod>2021-07-28T00:12:00+00:00</lastmod>
-  </url><url>
     <loc>https://himloul.github.io/tags/machine-learning/</loc>
     <lastmod>2021-07-28T00:12:00+00:00</lastmod>
   </url><url>
     <loc>https://himloul.github.io/tags/nlp/</loc>
+    <lastmod>2021-07-28T00:12:00+00:00</lastmod>
+  </url><url>
+    <loc>https://himloul.github.io/posts/sentiment_analysis/</loc>
     <lastmod>2021-07-28T00:12:00+00:00</lastmod>
   </url><url>
     <loc>https://himloul.github.io/posts/cvrp_malta/</loc>

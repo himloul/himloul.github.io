@@ -11,9 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Sep 2021 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jan 2023 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Color-Coded Map Shows Research Center Members&#39; Locations</title>
+      <title>Make a game for GBA using C&#43;&#43;</title>
+      <link>https://himloul.github.io/posts/gba_game/</link>
+      <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/gba_game/</guid>
+      <description>🚧 Writing the article!</description>
+    </item>
+    
+    <item>
+      <title>Color-Coded Spatial Map using R</title>
       <link>https://himloul.github.io/posts/bmsc_map/</link>
       <pubDate>Wed, 22 Sep 2021 20:45:56 +0000</pubDate>
       
@@ -23,7 +32,7 @@ Context The software was designed to allow for the use of different types of use
     </item>
     
     <item>
-      <title>From TF-IDF to Transformers - Sentiment Analysis as a use case</title>
+      <title>Sentiment Analysis from TF-IDF to Transformers</title>
       <link>https://himloul.github.io/posts/sentiment_analysis/</link>
       <pubDate>Wed, 28 Jul 2021 00:12:00 +0000</pubDate>
       
@@ -33,7 +42,7 @@ Methodology We ran a lexicon-based sentiment analysis (eg. NLTK Vader Sentiment 
     </item>
     
     <item>
-      <title>Capacitated VRP of taxis service</title>
+      <title>Capacitated VRP of taxis service 🚖</title>
       <link>https://himloul.github.io/posts/cvrp_malta/</link>
       <pubDate>Mon, 14 Jun 2021 20:45:56 +0000</pubDate>
       
@@ -53,7 +62,7 @@ R was chosen as the programming language for this project because of its versati
     </item>
     
     <item>
-      <title>Automated Data processing for Trip metrics reporting</title>
+      <title>Automated Data processing for metrics reporting</title>
       <link>https://himloul.github.io/posts/preprocessing_r/</link>
       <pubDate>Thu, 20 Aug 2020 00:04:05 +0000</pubDate>
       
@@ -62,7 +71,7 @@ R was chosen as the programming language for this project because of its versati
     </item>
     
     <item>
-      <title>Good resources for learning Data science</title>
+      <title>My resources for learning Data science</title>
       <link>https://himloul.github.io/posts/good_resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

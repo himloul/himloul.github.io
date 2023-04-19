@@ -13,7 +13,7 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Jul 2021 00:12:00 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>From TF-IDF to Transformers - Sentiment Analysis as a use case</title>
+      <title>Sentiment Analysis from TF-IDF to Transformers</title>
       <link>https://himloul.github.io/posts/sentiment_analysis/</link>
       <pubDate>Wed, 28 Jul 2021 00:12:00 +0000</pubDate>
       
@@ -23,7 +23,7 @@ Methodology We ran a lexicon-based sentiment analysis (eg. NLTK Vader Sentiment 
     </item>
     
     <item>
-      <title>Good resources for learning Data science</title>
+      <title>My resources for learning Data science</title>
       <link>https://himloul.github.io/posts/good_resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
