@@ -18,7 +18,9 @@
       <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
       
       <guid>https://himloul.github.io/posts/gba_game/</guid>
-      <description>🚧 Writing the article!</description>
+      <description>[🚧 Draft]
+I have an appreciation for retro games, particularly Nintendo games. The gameplay of The Legend of Zelda and the pixel art and environment of Wario Land 3 and 4 always leave me feeling hooked. Whenever I spent time playing pixel art games, I get that same sensation of being transported back to the golden age of handheld game consoles.
+In this demo, we will take on the challenge of building a game for Game Boy Advance.</description>
     </item>
     
     <item>
@@ -38,6 +40,7 @@ Context The software was designed to allow for the use of different types of use
       
       <guid>https://himloul.github.io/posts/cvrp_malta/</guid>
       <description>Introduction The Capacitated Vehicle Routing Problem (CVRP) is a variant of the well-known Vehicle Routing Problem (VRP) in which each vehicle has a limited capacity and the aim is to find the optimal routes for a fleet of vehicles to deliver goods to a set of customers while minimizing the total distance traveled.
+Figure 1: vehicle routing plan solution taking an example of taxis given a set of users
 Modelling the problem In the context of a taxi service, the CVRP can be used to determine the most efficient routes for taxis to pick up and drop off passengers while taking into account the capacity of each taxi (i.</description>
     </item>
     
@@ -57,7 +60,8 @@ R was chosen as the programming language for this project because of its versati
       <pubDate>Thu, 20 Aug 2020 00:04:05 +0000</pubDate>
       
       <guid>https://himloul.github.io/posts/preprocessing_r/</guid>
-      <description>Introduction In the fast-paced world of transportation and logistics, it&amp;rsquo;s crucial to have accurate and up-to-date information about the metrics of your trips. This information helps you make informed decisions, optimize routes, and improve customer satisfaction. But manually processing and reporting on this data can be a time-consuming and tedious task. In this article, we&amp;rsquo;ll show you how you can use R Markdown to automate the data processing and reporting of trip metrics.</description>
+      <description>In today&amp;rsquo;s data-driven world, processing and reporting on data is a crucial aspect of making informed decisions. However, manually processing and reporting on data can be time-consuming and tedious. In this article, we will show you how to automate the data processing of your metrics reporting using R.
+Introduction In the world of transportation and logistics, having accurate and up-to-date information about trip metrics is essential for making informed decisions, optimizing routes, and improving customer satisfaction.</description>
     </item>
     
   </channel>

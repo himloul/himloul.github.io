@@ -13,13 +13,13 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Jul 2021 00:12:00 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sentiment Analysis from TF-IDF to Transformers</title>
-      <link>https://himloul.github.io/posts/sentiment_analysis/</link>
+      <title>NLP from Sequential to Attention models</title>
+      <link>https://himloul.github.io/posts/nlp/</link>
       <pubDate>Wed, 28 Jul 2021 00:12:00 +0000</pubDate>
       
-      <guid>https://himloul.github.io/posts/sentiment_analysis/</guid>
-      <description>Sentiment analysis is an exciting field of natural language processing that allows us to understand people&amp;rsquo;s attitudes and opinions towards different subjects. In this blog, we&amp;rsquo;ll explore three popular methods for sentiment analysis: Bag of Words, TF-IDF, and BERT. We&amp;rsquo;ll demonstrate how to use these methods in Python and compare their results.
-Methodology We ran a lexicon-based sentiment analysis (eg. NLTK Vader Sentiment Analyser) on the textual data. then report and discuss the results.</description>
+      <guid>https://himloul.github.io/posts/nlp/</guid>
+      <description>Introduction Natural Language Processing (NLP) is a vital part of Artificial Intelligence (AI) that helps computers understand and use language effectively. Recently, there have been exciting advancements in NLP using Deep Learning approaches, which has led to impressive performance on language-based tasks. One of the most exciting developments in this field is the creation of Large Language Models (LLMs), which have caught the attention of many people.
+In this article, we will explore these models and approaches in-depth, focusing on how they can help us with NLP tasks.</description>
     </item>
     
   </channel>

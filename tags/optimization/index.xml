@@ -19,6 +19,7 @@
       
       <guid>https://himloul.github.io/posts/cvrp_malta/</guid>
       <description>Introduction The Capacitated Vehicle Routing Problem (CVRP) is a variant of the well-known Vehicle Routing Problem (VRP) in which each vehicle has a limited capacity and the aim is to find the optimal routes for a fleet of vehicles to deliver goods to a set of customers while minimizing the total distance traveled.
+Figure 1: vehicle routing plan solution taking an example of taxis given a set of users
 Modelling the problem In the context of a taxi service, the CVRP can be used to determine the most efficient routes for taxis to pick up and drop off passengers while taking into account the capacity of each taxi (i.</description>
     </item>
     
