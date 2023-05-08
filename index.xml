@@ -29,7 +29,8 @@ In this demo, we will take on the challenge of building a game for Game Boy Adva
       <pubDate>Wed, 22 Sep 2021 20:45:56 +0000</pubDate>
       
       <guid>https://himloul.github.io/posts/bmsc_map/</guid>
-      <description>The purpose of this technical report is to outline the process of creating a color-coded map that shows the geographic locations of members affiliated with a research center. The client required a software solution that would allow them to visually represent the distribution of members across various geographic locations.
+      <description>The purpose of this technical report is to outline the process of creating a color-coded map that shows the geographic locations of members affiliated with a research center. we will build a software solution that would allow them to visually represent the distribution of members across various geographic locations.
+Figure 1: Spatial map visualizing multiple categories
 Context The software was designed to allow for the use of different types of users/layers, which required the creation of different colored clusters to reflect their affiliations.</description>
     </item>
     
@@ -55,13 +56,13 @@ Modelling the problem In the context of a taxi service, the CVRP can be used to 
     </item>
     
     <item>
-      <title>Mobility Analytics using R</title>
+      <title>Mobility Analytics with R</title>
       <link>https://himloul.github.io/posts/mobility_analytics/</link>
       <pubDate>Tue, 13 Oct 2020 20:14:00 +0000</pubDate>
       
       <guid>https://himloul.github.io/posts/mobility_analytics/</guid>
-      <description>Hi, In this technical blog, we will explore the use of R for fleet mobility analytics. This case study is based on a project that was undertaken for a transportation company with a fleet of 102 trucks and 91 drivers. The objective of the project was to develop a real-time tracking tool for the moving resources.
-R was chosen as the programming language for this project because of its versatility and power as an end-to-end solution.</description>
+      <description>Hello, In this technical blog, we will explore the use of R for fleet mobility analytics. This case study is based on a project that was undertaken for a transportation company with a fleet of 102 trucks and 91 drivers. The objective of the project was to develop a real-time tracking tool for the moving resources.
+Originally, the first thought of some of you is: why R was chosen as the programming language for this software?</description>
     </item>
     
     <item>
@@ -88,7 +89,7 @@ Collaborated with clients on developing Data &amp;amp; Analytics web apps. Train
     </item>
     
     <item>
-      <title>About me 👋</title>
+      <title>About me</title>
       <link>https://himloul.github.io/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -98,17 +99,15 @@ In my free time, I usually create cool web apps or draw fun doodles. I love givi
     </item>
     
     <item>
-      <title>My resources for learning Data science</title>
+      <title>Awesome resources: Data science and Beyond</title>
       <link>https://himloul.github.io/posts/good_resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://himloul.github.io/posts/good_resources/</guid>
-      <description>Define data science I share with you, some of the resources I considered in my recent years, to learn data science and operations research, outside of my academic curriculum. 😎
-Data science Deep learning D Deep learning Cheat sheet - A summary of deep learning concepts shared by Stanford researchers.
-Learn TensorFlow and deep learning, without a Ph.D.
-TensorFlow tutorials
-Understanding Deep Learning, by Simon J.D. Prince
-CS231n Convolutional Neural Networks for Visual Recognition - Stanford</description>
+      <description>Exploring resources into Data science and Beyond. I share with you, some of the resources I considered during the last recent years, to learn data science and operations research, outside of my academic curriculum. 😎
+Courses 📝 Home | CS324 (stanford-cs324.github.io) - CS324 - Large Language Models
+Harvard CS197: AI Research Experiences - Dive into dev tools like Pytorch, Lightning, and HF
+CS231n CNN for Visual Recognition - Stanford CS class</description>
     </item>
     
     
