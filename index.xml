@@ -13,6 +13,18 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Jan 2023 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Awesome resources: Data science and Beyond</title>
+      <link>https://himloul.github.io/posts/good_resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/good_resources/</guid>
+      <description>Exploring resources into Data science and Beyond. I share with you, some of the resources I considered during the last recent years, to learn data science and operations research, outside of my academic curriculum. 😎
+Courses 📝 Home | CS324 (stanford-cs324.github.io) - CS324 - Large Language Models
+Harvard CS197: AI Research Experiences - Dive into dev tools like Pytorch, Lightning, and HF
+CS231n CNN for Visual Recognition - Stanford CS class</description>
+    </item>
+    
+    <item>
       <title>Make a game for GBA using C&#43;&#43;</title>
       <link>https://himloul.github.io/posts/gba_game/</link>
       <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
@@ -96,18 +108,6 @@ Collaborated with clients on developing Data &amp;amp; Analytics web apps. Train
       <guid>https://himloul.github.io/resume/</guid>
       <description>Hey there! I&amp;rsquo;m a passionate NLP Engineer and Data Scientist with experience in incorporating NLP models in systems, implementing Transformer-based language models, and developing data and analytics web apps. I&amp;rsquo;m also interested in system design, game development, IoT, robotics, and embedded systems.
 In my free time, I usually create cool web apps or draw fun doodles. I love giving back to the community by sharing information on my GitHub repos. Besides software and math, I am an illustrator, check my artworks 🎨.</description>
-    </item>
-    
-    <item>
-      <title>Awesome resources: Data science and Beyond</title>
-      <link>https://himloul.github.io/posts/good_resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/posts/good_resources/</guid>
-      <description>Exploring resources into Data science and Beyond. I share with you, some of the resources I considered during the last recent years, to learn data science and operations research, outside of my academic curriculum. 😎
-Courses 📝 Home | CS324 (stanford-cs324.github.io) - CS324 - Large Language Models
-Harvard CS197: AI Research Experiences - Dive into dev tools like Pytorch, Lightning, and HF
-CS231n CNN for Visual Recognition - Stanford CS class</description>
     </item>
     
     

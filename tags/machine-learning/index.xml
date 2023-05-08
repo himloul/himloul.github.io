@@ -13,16 +13,6 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Jul 2021 00:12:00 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>NLP from Sequential to Attention models</title>
-      <link>https://himloul.github.io/posts/nlp/</link>
-      <pubDate>Wed, 28 Jul 2021 00:12:00 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/posts/nlp/</guid>
-      <description>Introduction Natural Language Processing (NLP) is a vital part of Artificial Intelligence (AI) that helps computers understand and use language effectively. Recently, there have been exciting advancements in NLP using Deep Learning approaches, which has led to impressive performance on language-based tasks. One of the most exciting developments in this field is the creation of Large Language Models (LLMs), which have caught the attention of many people.
-In this article, we will explore these models and approaches in-depth, focusing on how they can help us with NLP tasks.</description>
-    </item>
-    
-    <item>
       <title>Awesome resources: Data science and Beyond</title>
       <link>https://himloul.github.io/posts/good_resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -32,6 +22,16 @@ In this article, we will explore these models and approaches in-depth, focusing 
 Courses 📝 Home | CS324 (stanford-cs324.github.io) - CS324 - Large Language Models
 Harvard CS197: AI Research Experiences - Dive into dev tools like Pytorch, Lightning, and HF
 CS231n CNN for Visual Recognition - Stanford CS class</description>
+    </item>
+    
+    <item>
+      <title>NLP from Sequential to Attention models</title>
+      <link>https://himloul.github.io/posts/nlp/</link>
+      <pubDate>Wed, 28 Jul 2021 00:12:00 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/nlp/</guid>
+      <description>Introduction Natural Language Processing (NLP) is a vital part of Artificial Intelligence (AI) that helps computers understand and use language effectively. Recently, there have been exciting advancements in NLP using Deep Learning approaches, which has led to impressive performance on language-based tasks. One of the most exciting developments in this field is the creation of Large Language Models (LLMs), which have caught the attention of many people.
+In this article, we will explore these models and approaches in-depth, focusing on how they can help us with NLP tasks.</description>
     </item>
     
   </channel>
