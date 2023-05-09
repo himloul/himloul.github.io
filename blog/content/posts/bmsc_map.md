@@ -1,5 +1,5 @@
 ---
-title: "Color-Coded Map Shows Research Center Members' Locations"
+title: "Color-Coded Spatial Map using R"
 author: "Hamza imloul"
 date: 2021-09-22T20:45:56Z
 ShowToc: true
@@ -8,7 +8,9 @@ math: true
 tags: ["Data science", "Analytics", "Portfolio"]
 ---
 
-The purpose of this technical report is to outline the process of creating a color-coded map that shows the geographic locations of members affiliated with a research center. The client required a software solution that would allow them to visually represent the distribution of members across various geographic locations.
+The purpose of this technical report is to outline the process of creating a color-coded map that shows the geographic locations of members affiliated with a research center. we will build a software solution that would allow them to visually represent the distribution of members across various geographic locations.
+
+{{< figure src="/images/bmscmap.jpg#center" caption="Figure 1: Spatial map visualizing multiple categories" align="center">}}
 
 ## Context
 
@@ -18,7 +20,7 @@ Additionally, a legend was added to the map to make it easy to understand the di
 
 ## Data Workflow 
 
-![flow_chart_apps](/images/bmsc.excalidraw.png)  
+{{< figure src="/images/bmsc.excalidraw.png#center" caption="Figure 1: Data flow for the R Shiny app" align="center">}}
 
 ## Result
 

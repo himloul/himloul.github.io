@@ -1,0 +1,47 @@
+---
+title: "Sketches"
+# Description: "NLP Engineer, Data scientist"
+layout: "resume"
+ShowShareButtons: false
+ShowFullTextinRSS: false
+ShowReadingTime: false
+ShowWordCount: false
+disableShare: true
+ShowBreadCrumbs: false
+comments: false
+hidemeta: true
+---
+
+### My personal art hobby
+  
+In my free time I like to make illustrations and Graphic design! Check out my [illustrations](https://himl.tumblr.com/)  
+
+{{< rawhtml >}}
+
+<center>
+<img src="/images/himloul.gif" alt="drawing" width="125"/>
+</center>
+
+<div style = "display: grid; grid-gap: 10px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 75%; justify-content: center;">
+    <img src="/images/carablanca.jpg" style="border-radius: 10px;width:200px;height:200px;object-fit: cover;">
+    <img src="/images/fresh_oranges_himloul.jpg" style="border-radius: 10px;width:200px;height:200px;object-fit: cover;">
+    <img src="/images/sunset_pxlart_himloul.jpg" style="border-radius: 10px;width:200px;height:200px;object-fit: cover;">
+</div>
+
+{{< /rawhtml >}} 
+
+<!--
+[Collect prints](#link){: .btn .btn--success .btn--large .align-center}  
+
+<div style="text-align: center">
+  <div class="flex-container" style="vertical-align: top">
+    <img src="/images/fresh_oranges_himloul.jpg" width = "150"/>
+    <img src="/images/sunset_pxlart_himloul.jpg" width = "150"/>
+    <img src="/images/carablanca.jpg" width = "150"/>
+  </div>
+</div>
+-->
+  
+<!--
+  <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'2YaOkhxSryTRbAkzrJcb'});Pixlee.addSimpleWidget({widgetId:'34605'});};</script><script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
+-->

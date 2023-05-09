@@ -67,7 +67,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Hamza imloul
     subtitle: "Hello, my name is Hamza and I am keeping track of my learning progress and personal projects through this blog. Alongside creating content on ML, I also work as a **NLP engineer** and helping my team in Applied research and Data science."
     imageUrl: "profile.png"
@@ -93,11 +93,11 @@ params:
     - name: github
       url: "https://github.com/himloul"
     - name: linkedin
-      url: "https://www.linkedin.com/hamza-imloul"
+      url: "https://www.linkedin.com/in/hamza-imloul"
     - name: mastodon
       url: "https://sigmoid.social/@himloul"
     - name: behance
-      url: "https://www.behance.com/himl"
+      url: "https://www.behance.com/himloul"
 
   analytics:
     google:
@@ -112,10 +112,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/himloul/himblog/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/himloul/himblog/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -139,6 +139,11 @@ menu:
       url: /search/
       weight: 20
 
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 30
+
     - identifier: tags
       name: Tags
       url: /tags/
@@ -146,12 +151,17 @@ menu:
 
     - identifier: resume
       name: About
-      url: /resume/
+      url:  /resume/
+      weight: 40
+
+    - identifier: sketches
+      name: Sketches
+      url:  /art/
       weight: 40
 
     - identifier: example
       name: LinkedIn
-      url: https://www.linkedin.com/hamza-imloul/
+      url: https://www.linkedin.com/in/hamza-imloul/
       weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
@@ -163,3 +173,4 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+    # hrefTargetBlank: true
