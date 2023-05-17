@@ -16,13 +16,11 @@ Hey there! I'm a passionate NLP Engineer and Data Scientist with experience in i
 
 In my free time, I usually create cool web apps or draw fun doodles. I love giving back to the community by sharing information on my GitHub repos. Besides software and math, I am an illustrator, check my [artworks](https://www.behance.com/himl) 🎨.
 
-![Oranges - 2018](/images/oranges.jpg)
-
 ## Resume
 
 {{< rawhtml >}}
 <details>
-  <summary>2022 — NLP Product Developer <a href="https://dxc.com/us/en/services/insurance-software-bps/dxc-insurance-software/DXC-Assure-components">@DXC Assure</a> · Hybrid</summary>
+  <summary>2022 — <b>NLP Product Developer <a href="https://dxc.com/us/en/services/insurance-software-bps/dxc-insurance-software/DXC-Assure-components"></b>@DXC Assure</a> · Hybrid</summary>
   <ul>
     <li>Implemented the continuous training of a BERT based model for the semantic similarity NLP task.</li>
     <li>Built a Closed-domain QA system using LLM and embedding models</li>
@@ -31,21 +29,21 @@ In my free time, I usually create cool web apps or draw fun doodles. I love givi
 </details>
 
 <details>
-  <summary>2022 — Analytics developer <a href="https://www.q2m2.com/">@Q2M2</a> · Freelance</summary>
+  <summary>2022 — <b>Analytics developer</b> <a href="https://www.q2m2.com/">@Q2M2</a> · Freelance</summary>
   <ul>
     <li>Developed Data & Analytics web apps. `Python` `R` `Shiny` `Flask`</li>
   </ul>
 </details>
 
 <details>
-  <summary>2021 — Freelance R/Python developer</summary>
+  <summary>2021 — <b>Freelance R/Python developer</b></summary>
   <ul>
     <li>Collaborated with clients to develop Decision-making tools & Analytics web apps.</li>
   </ul>
 </details>
 
 <details>
-  <summary>2019 — Operations Data Analyst @ Mixtra</summary>
+  <summary>2019 — <b>Operations Data Analyst</b> @ Mixtra</summary>
   <ul>
     <li>Developed transportation anomaly detection tool and evaluated fleet mobility and congestion.</li>
   </ul>
@@ -77,3 +75,6 @@ In my free time, I usually create cool web apps or draw fun doodles. I love givi
 </details>
 </span>
 {{< /rawhtml >}}
+
+
+<!-- {{< figure src="/images/oranges.jpg#center" caption="" align="center" width="75%">}} -->

@@ -100,6 +100,8 @@ Exploring resources into Data science and Beyond. I share with you, some of the 
   
 ## Challenges
 
+[LeetCode](https://leetcode.com/) - Learn and prepare for technical interviews.
+[Roadmap (neetcode.io)](https://neetcode.io/roadmap) - Roadmap for practicing on LeetCode.
 [Challenges | Inform](https://2020.spaceappschallenge.org/challenges/inform/) - NASA Space Apps Challenge.  
 
 **Good Read!**

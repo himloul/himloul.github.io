@@ -17,6 +17,12 @@ In this demo, we will take on the challenge of building a game for Game Boy Adva
 
 Developing software with C++ can be a challenging task, especially for those without prior experience in software development. Although I am familiar with Python, we are limited to using low-end programming languages such as C++ or Nim for GBA game development. Luckily, we have found frameworks like Butano that can make the process easier.
 
+## Design
+
 To get started, we need to prepare a **Game Design Document (GDD)**. This document outlines the game's concept, mechanics, and features.
 
 In addition to creating the GDD, we will also learn the basics of game design and explore the features of Butano. By doing so, we can better understand how Butano can simplify the development and compilation of games for the GBA.
+
+## Code
+
+## Release

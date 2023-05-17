@@ -18,15 +18,61 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
 
 {{< rawhtml >}}
 
-<center>
+<!-- <center>
 <img src="/images/himloul.gif" alt="drawing" width="125"/>
-</center>
+</center> -->
 
-<div style = "display: grid; grid-gap: 10px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 75%; justify-content: center;">
-    <img src="/images/carablanca.jpg" style="border-radius: 10px;width:200px;height:200px;object-fit: cover;">
-    <img src="/images/fresh_oranges_himloul.jpg" style="border-radius: 10px;width:200px;height:200px;object-fit: cover;">
-    <img src="/images/sunset_pxlart_himloul.jpg" style="border-radius: 10px;width:200px;height:200px;object-fit: cover;">
+<style>
+    .image-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .image-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .image-container:hover .image-overlay {
+        opacity: 1;
+    }
+
+    .image-overlay span {
+        font-size: 36px;
+    }
+</style>
+
+<div style="display: grid; grid-gap: 10px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 75%; justify-content: center;">
+    <div class="image-container">
+        <img src="/images/carablanca.jpg" style="border-radius: 10px;width:200px;height:200px;object-fit: cover;">
+        <div class="image-overlay">
+            <span>🏕️</span>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="/images/fresh_oranges_himloul.jpg" style="border-radius: 10px;width:200px;height:200px;object-fit: cover;">
+        <div class="image-overlay">
+            <span>🍊</span>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="/images/sunset_pxlart_himloul.jpg" style="border-radius: 10px;width:200px;height:200px;object-fit: cover;">
+        <div class="image-overlay">
+            <span>🎮</span>
+        </div>
+    </div>
 </div>
+
 
 {{< /rawhtml >}} 
 

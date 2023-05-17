@@ -62,13 +62,13 @@ Minimize:
 $$Min \sum_{k}\sum_{i}\sum_{j} d_{ij} \cdot x_{ijk}$$
 Subject to:
 
-$\sum_{j} x_{ijk} = 1 \quad \forall i \quad \text{(Each customer is visited exactly once)}$  
-$\sum_{i} x_{ijk} = 1 \quad \forall k \quad \text{(Each vehicle starts and ends at the depot)}$  
-$\sum_{i} q_{i} \cdot x_{ijk} \leq Q_{k} \quad \forall k \quad \text{(Capacity constraint for each vehicle)}$  
+$\sum_{j} x_{ijk} = 1 \quad \forall i$  Each customer is visited exactly once.  
+$\sum_{i} x_{ijk} = 1 \quad \forall k$   Each vehicle starts and ends at the depot.  
+$\sum_{i} q_{i} \cdot x_{ijk} \leq Q_{k} \quad \forall k$  Capacity constraint for each vehicle.  
 
 In this objective function, we sum up the distances traveled by all vehicles, considering the binary decision variables that determine the route taken by each vehicle. The constraints ensure that each customer is visited exactly once, each vehicle starts and ends at the depot, and the capacity of each vehicle is not exceeded.
 
-The optimization algorithm seeks to find the values of the decision variables (x_ijk) that minimize the total distance traveled while satisfying all the constraints of the CVRP.
+The optimization algorithm seeks to find the values of the decision variables $x_{ijk}$ that minimize the total distance traveled while satisfying all the constraints of the CVRP.
 ## Cost matrix
   
 After, Calculated the cost **matrix**, which is an essential component in solving the Capacitated Vehicle Routing Problem (CVRP). It represents the distances or costs associated with traveling between each pair of locations (nodes) in the problem, and provides the necessary information for route planning, constraint validation, and optimizing the objective function in CVRP.
@@ -145,12 +145,9 @@ print(distance_matrix)
 
 Now, that we have the cost matrix, we can solve the VRP with capacity constraints. at Each location in the problem has a specific demand associated with the quantity of items to be picked up at that location. Furthermore, each vehicle has a maximum capacity limit of $c_{v} ; v \in E_{v}$.
 
-```python
-data['demands'] = [0, 1, 1, 2, 4, 2, 4, 8, 8, 1, 2, 1, 2, 4, 4, 8, 8]  
-data['vehicle_capacities'] = [15, 15, 15, 15]
-```
-
 After searching for the Python modules helping to solve this combinatorial optimization problem, Found that `ORtools` propose an end-to-end algorithm, with a feasible solution in a considerable computational time. In addition to `scipy`.
+
+We will develop the function in `c++`, since we seek performance optimization, knowing that the VRP is computationally expensive.
 
 ```python
 def cvrp(customers, depot, vehicle_capacity):
