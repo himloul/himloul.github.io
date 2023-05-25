@@ -20,13 +20,17 @@ Additionally, a legend was added to the map to make it easy to understand the di
 
 ## Data Workflow 
 
-{{< figure src="/images/bmsc.excalidraw.png#center" caption="Figure 1: Data flow for the R Shiny app" align="center">}}
+{{< figure src="/images/bmsc.excalidraw.png#center" caption="Figure 2: Data flow for the R Shiny app" align="center">}}
 
-## Result
+## Result: Spatial map
 
 The resulting map provided an easy-to-understand visual representation of the geographic distribution of members affiliated with the research center. The `OverlappingMarkerSpiderfier` feature in leaflet allowed for the clear visualization of multiple clusters in the same geographic location. The legend provided a simple way to understand the different affiliations represented by the color-coded clusters. sThe downloadable map made it easy for users to view the map outside of the website.
 
-{{< include-html "map_bmsc.html" >}}
+<!-- {{< include-html "map_bmsc.html" >}} -->
+
+<!-- {{< rawhtml >}}
+<iframe src="https://maper.onrender.com/" width="100%" height="500px"></iframe>
+{{< /rawhtml >}} -->
 
 [Link to the map.](https://bamfieldmsc.com/research-overview)
 {{< tweet user="BamfieldMSC" id="1442878031375204354" >}}

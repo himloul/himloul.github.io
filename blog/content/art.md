@@ -30,10 +30,11 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
 
     .image-overlay {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         width: 100%;
-        height: 100%;
+        height: 86%;
         background-color: rgba(255, 255, 255, 0.5);
         border-radius: 10px;
         display: flex;
@@ -41,7 +42,11 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
         align-items: center;
         opacity: 0;
         transition: opacity 0.3s;
+        box-sizing: border-box;
+        padding: 20px;
     }
+
+
 
     .image-container:hover .image-overlay {
         opacity: 1;
@@ -49,6 +54,9 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
 
     .image-overlay span {
         font-size: 36px;
+        /* background-color: rgba(255, 255, 255, 0.5);
+        padding: 10px;
+        border-radius: 10px; */
     }
 </style>
 

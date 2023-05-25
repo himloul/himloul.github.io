@@ -5,6 +5,7 @@ date: 2021-06-14T20:45:56Z
 ShowToc: true
 math: true
 comments: trues
+weight: 10
 tags: ["Data science", "Analytics", "Portfolio", "Optimization"]
 ---
 
@@ -51,10 +52,10 @@ It's important to note that the choice of objective function depends on the spec
 
 The objective function for the Minimize Total Distance objective in the Capacitated Vehicle Routing Problem (CVRP) can be represented by the sum of the distances traveled by all vehicles. Let's denote the variables used in the objective function:
 
-- $d_{ij}$ : The distance between two locations i and j. This can be obtained from a precomputed distance matrix or calculated dynamically based on the coordinates of the locations.
-- $x_{ijk}$ : A binary decision variable indicating whether vehicle k travels from location i to location j. It takes the value 1 if the vehicle follows that route segment and 0 otherwise.
-- $Q_k$ : The capacity limit of vehicle k, representing the maximum amount it can carry.
-- $q_i$ : The demand of customer i, representing the quantity of goods or services required by that customer.
+- $d_{ij}$ : The distance between two locations $i$ and $j$. This can be obtained from a precomputed distance matrix or calculated dynamically based on the coordinates of the locations.
+- $x_{ijk}$ : A binary decision variable indicating whether vehicle $k$ travels from location $i$ to location $j$. It takes the value 1 if the vehicle follows that route segment and 0 otherwise.
+- $Q_k$ : The capacity limit of vehicle $k$, representing the maximum amount it can carry.
+- $q_i$ : The demand of customer $i$, representing the quantity of goods or services required by that customer.
 
 With these variables, the objective function for minimizing total distance can be formulated as:
 
@@ -149,56 +150,13 @@ After searching for the Python modules helping to solve this combinatorial optim
 
 We will develop the function in `c++`, since we seek performance optimization, knowing that the VRP is computationally expensive.
 
-```python
-def cvrp(customers, depot, vehicle_capacity):
-    """
-    Solves the Capacitated Vehicle Routing Problem (CVRP) by minimizing the total distance.
-    
-    Args:
-        customers (list): List of customer locations with demands.
-        depot (dict): Location of the depot (start and end point).
-        vehicle_capacity (float): Maximum capacity of each vehicle.
-    
-    Returns:
-        list: List of vehicles with their respective routes.
-    """
-    # Make a copy of the customers list to track remaining customers
-    vehicles = []
-    remaining_customers = customers[:]
-    
-    while len(remaining_customers) > 0:
-        # Initialize the current vehicle with the depot as the starting point and load as 0
-        current_vehicle = {'route': [depot], 'load': 0}
-        current_location = depot
-        
-        while len(remaining_customers) > 0:
-            min_distance = float('inf')
-            nearest_customer = None
-            
-            for customer in remaining_customers:
-                distance = distance_matrix[current_location][customer]
-                if (distance < min_distance and 
-	            current_vehicle['load'] + customer['demand'] <= vehicle_capacity):
-                    min_distance = distance
-                    nearest_customer = customer
-            
-            if nearest_customer is None:
-                break
-            
-            current_vehicle['route'].append(nearest_customer)
-            current_vehicle['load'] += nearest_customer['demand']
-            current_location = nearest_customer
-            remaining_customers.remove(nearest_customer)
-        
-        # Append the depot as the end point of the vehicle's route
-        current_vehicle['route'].append(depot) 
-        # Add the current vehicle to the list of vehicles
-        vehicles.append(current_vehicle)
-    
-    return vehicles
+```c++
+/*TODO - Develop the cvrp algorithm in vanilla c++*/
 ```
 
-Example
+Alternatively, simply we can use existent frameworks written in C-family languages (e.g. Python), such as `ORtools` or `PulP`.
+
+Example usage:
 
 ```python
 # Example usage
