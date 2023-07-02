@@ -1,7 +1,7 @@
 ---
 title: "About me"
 # Description: "NLP Engineer, Data scientist"
-layout: "resume"
+layout: "simple"
 ShowShareButtons: false
 ShowFullTextinRSS: false
 ShowReadingTime: false
@@ -12,9 +12,9 @@ comments: false
 hidemeta: true
 ---
 
-Hey there! I'm a passionate NLP Engineer and Data Scientist with experience in incorporating NLP models in systems, implementing Transformer-based language models, and developing data and analytics web apps. I'm also interested in system design, game development, IoT, robotics, and embedded systems. 
+Hey there! My name is Hamza, and I'm a passionate NLP Engineer and Data Scientist with experience in incorporating NLP models in systems, implementing Transformer-based language models, and developing data and analytics web apps. I'm also interested in system design, game development, IoT, robotics, and embedded systems.
 
-In my free time, I usually create cool web apps or draw fun doodles. I love giving back to the community by sharing information on my GitHub repos. Besides software and math, I am an illustrator, check my [artworks](https://www.behance.com/himl) 🎨.
+In my free time, I usually explore LLM use cases, create cool web apps or draw fun doodles. I love giving back to the community by sharing information on my GitHub repos. Besides software and math, I am an illustrator, check my [artworks](https://www.behance.com/himl) 🎨.
 
 ## Resume
 
@@ -23,7 +23,7 @@ In my free time, I usually create cool web apps or draw fun doodles. I love givi
   <summary>2022 — <b>NLP Product Developer <a href="https://dxc.com/us/en/services/insurance-software-bps/dxc-insurance-software/DXC-Assure-components"></b>@DXC Assure</a> · Hybrid</summary>
   <ul>
     <li>Implemented the continuous training of a BERT based model for the semantic similarity NLP task.</li>
-    <li>Built a Closed-domain QA system using LLM and embedding models</li>
+    <li>Developed a Closed-domain Information retieval system using Language models</li>
     <li>Explored scenarios of using LLM in the industry.</li>
   </ul>
 </details>
@@ -31,7 +31,7 @@ In my free time, I usually create cool web apps or draw fun doodles. I love givi
 <details>
   <summary>2022 — <b>Analytics developer</b> <a href="https://www.q2m2.com/">@Q2M2</a> · Freelance</summary>
   <ul>
-    <li>Developed Data & Analytics web apps. `Python` `R` `Shiny` `Flask`</li>
+    <li>Developed and Deployed Data & Analytics web apps #Python (Flask), #R (Shiny) #Docker</li>
   </ul>
 </details>
 

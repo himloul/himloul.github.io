@@ -35,7 +35,7 @@ Go to the chosen directory, where you would like to store the repo content, then
 git clone https://github.com/GValiente/butano
 ```
 
-Second, you will want to install a development library call DevKitPro.
+Second, you will want to install a development library call `DevKitPro`.
 
 ### Install `devkitPro`
 

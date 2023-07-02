@@ -1,94 +1,79 @@
-# Create a website using Hugo + PaperMod
-And deploy it in GitHub
+# Website with PaperMod
 
-First, create two repositories in GitHub, I choose the names: himblog, and himloul.github.io
-Then Clone the two repos locally
+This README provides step-by-step instructions for creating a website using Hugo with the PaperMod theme and deploying it on GitHub. Follow the outlined steps to set up your website.
 
+## Prerequisites
+Before you begin, make sure you have the following:
 
-Clone the blog repo, where the content of the Hugo website is stored
+- GitHub account
+- Git installed on your local machine
+
+## Step 1: Create Repositories
+1. Create two repositories on GitHub: `himblog` and `himloul.github.io`.
+2. Clone both repositories locally using the following commands:
 ```bash
 git clone https://github.com/himloul/himblog.git
-```
-
-Add the Hugo theme: PaperMod
-```bash
-cd blog
-git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
-```
-
-Check the website
-```
-hugo server -D
-```
-
-Add a new post
-```bash
-# Create new blog post
-hugo new --kind post posts/first_post.md
-```
-
-Clone the prod repo
-```bash
 git clone https://github.com/himloul/himloul.github.io.git
 ```
 
-Create a `README.md` file in the prod repo
+## Step 2: Add Hugo Theme (PaperMod)
+1. Clone the Hugo theme (PaperMod) into the `themes` directory of the `himblog` repository:
 ```bash
-# Move to himloul.github.io
-cd ../../himloul.github.io
-git checkout -b main # Switched to a new branch 'main'
-touch README.md # create readme file
-git status
-# Update the repo
-git add .
-git commit -m "Adding Readme"
-git push origin main
+cd himblog
+git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
 ```
 
-Add a submodule, where we will store the rendered website content
-
+## Step 3: Check Website Locally
+1. Start the Hugo server to check your website locally:
 ```bash
-cd ../himblog
-git rm -r --cached blog # Remove the cache from the blog folder
+hugo server -D
+```
 
-### UPDATE PUBLIC FOLDER ###
+## Step 4: Add a New Blog Post
+1. Create a new blog post using the following command:
+```bash
+hugo new --kind post posts/first_post.md
+```
+
+## Step 5: Set Up Submodule for Rendered Website Content
+1. Remove the cache from the `blog` folder:
+```bash
 cd blog
-# Create a submodule
-rm -rf public
-git submodule add -b main https://github.com/himloul/himloul.github.io.git public
-# hugo server -D
+git rm -r --cached blog
 ```
-
-if you did a mistake with the submodule in `Public` folder, and you want to rest
+2. Create a submodule to store the rendered website content:
 ```bash
-# rm -rf libs/OAuth/public
-# git submodule update
 rm -rf public
 git submodule add -b main https://github.com/himloul/himloul.github.io.git public
 ```
 
-Now we can generate ou static website, and it will be created in the `public` directory,
-Update the public folder
+## Step 6: Generate Static Website
+1. Generate the static website, which will be created in the `public` directory:
 ```bash
 hugo -t PaperMod
 ```
 
+## Step 7: Update and Deploy Website
+1. Commit and push the changes in the `public` folder:
 ```bash
 cd public
-# git remote -v # The origin is pointing to himloul.github.io (prodr repo)
-# git status
 git add .
-git commit -m "init commit"
+git commit -m "Initial commit"
 git push origin main
-
+```
+2. Commit and push the changes in the `himblog` repository:
+```bash
 cd ../..
 git add .
 git commit -m "Update content"
 git push
 ```
 
-View locally the generated website from the `public` directory
+## Step 8: View Locally
+1. View the locally generated website from the `public` directory by running a local server:
 ```bash
 python -m http.server
 ```
-and go to http://localhost:8000/
+2. Open your web browser and go to http://localhost:8000/ to see the website.
+
+Now you have successfully created a website using Hugo with the PaperMod theme and deployed it on GitHub.

@@ -5,7 +5,7 @@ date: 2021-06-14T20:45:56Z
 ShowToc: true
 math: true
 comments: trues
-weight: 10
+weight: 0
 tags: ["Data science", "Analytics", "Portfolio", "Optimization"]
 ---
 

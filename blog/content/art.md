@@ -60,7 +60,7 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
     }
 </style>
 
-<div style="display: grid; grid-gap: 10px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 75%; justify-content: center;">
+<div style="display: grid; grid-gap: 10px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 85%; justify-content: center;">
     <div class="image-container">
         <img src="/images/carablanca.jpg" style="border-radius: 10px;width:200px;height:200px;object-fit: cover;">
         <div class="image-overlay">
