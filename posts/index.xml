@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Hamza imloul</title>
+    <title>Posts on Hamza&#39;s blog</title>
     <link>https://himloul.github.io/posts/</link>
-    <description>Recent content in Posts on Hamza imloul</description>
+    <description>Recent content in Posts on Hamza&#39;s blog</description>
     <image>
-      <title>Hamza imloul</title>
+      <title>Hamza&#39;s blog</title>
       <url>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
@@ -22,17 +22,6 @@
 Courses 📝 Home | CS324 (stanford-cs324.github.io) - CS324 - Large Language Models
 Harvard CS197: AI Research Experiences - Dive into dev tools like Pytorch, Lightning, and HF
 CS231n CNN for Visual Recognition - Stanford CS class</description>
-    </item>
-    
-    <item>
-      <title>Capacitated VRP of taxis service 🚖</title>
-      <link>https://himloul.github.io/posts/cvrp_malta/</link>
-      <pubDate>Mon, 14 Jun 2021 20:45:56 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/posts/cvrp_malta/</guid>
-      <description>Introduction The Capacitated Vehicle Routing Problem (CVRP) is a variant of the well-known Vehicle Routing Problem (VRP) in which each vehicle has a limited capacity and the aim is to find the optimal routes for a fleet of vehicles to deliver goods to a set of customers while minimizing the total distance traveled.
-Figure 1: vehicle routing plan solution taking an example of taxis given a set of users
-Modelling the problem In the context of a taxi service, the CVRP can be used to determine the most efficient routes for taxis to pick up and drop off passengers while taking into account the capacity of each taxi (i.</description>
     </item>
     
     <item>
@@ -65,6 +54,17 @@ Context The software was designed to allow for the use of different types of use
       <guid>https://himloul.github.io/posts/nlp/</guid>
       <description>Introduction Natural Language Processing (NLP) is a vital part of Artificial Intelligence (AI) that helps computers understand and use language effectively. Recently, there have been exciting advancements in NLP using Deep Learning approaches, which has led to impressive performance on language-based tasks. One of the most exciting developments in this field is the creation of Large Language Models (LLMs), which have caught the attention of many people.
 In this article, we will explore these models and approaches in-depth, focusing on how they can help us with NLP tasks.</description>
+    </item>
+    
+    <item>
+      <title>Capacitated VRP of taxis service 🚖</title>
+      <link>https://himloul.github.io/posts/cvrp_malta/</link>
+      <pubDate>Mon, 14 Jun 2021 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/cvrp_malta/</guid>
+      <description>Introduction The Capacitated Vehicle Routing Problem (CVRP) is a variant of the well-known Vehicle Routing Problem (VRP) in which each vehicle has a limited capacity and the aim is to find the optimal routes for a fleet of vehicles to deliver goods to a set of customers while minimizing the total distance traveled.
+Figure 1: vehicle routing plan solution taking an example of taxis given a set of users
+Modelling the problem In the context of a taxi service, the CVRP can be used to determine the most efficient routes for taxis to pick up and drop off passengers while taking into account the capacity of each taxi (i.</description>
     </item>
     
     <item>
