@@ -58,6 +58,10 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
         padding: 10px;
         border-radius: 10px; */
     }
+    body {
+        background-image: url("/images/notepad.svg");
+        background-repeat: repeat;
+    }
 </style>
 
 <div style="display: grid; grid-gap: 10px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 85%; justify-content: center;">

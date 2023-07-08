@@ -12,6 +12,8 @@ Having spent approximately a year immersed in the field of Natural Language Proc
 
 The evolution of NLP over the past decade has been remarkable, largely fueled by the vast amounts of data available on the internet. This article aims to showcase the benefits reaped from this data-driven growth.
 
+The first NLP system, ELIZA: 
+
 Generative AI encompasses a wide array of concepts. In this article, I aim to share my experiences and provide a conceptual approach to NLP projects. Where necessary, I will include relevant code snippets to illustrate key points.
 
 NLP, from a conceptual perspective, plays a crucial role in Artificial Intelligence (AI) by enabling computers to comprehend and effectively utilize language. Notably, Deep Learning approaches have revolutionized NLP, leading to remarkable advancements in language-based tasks. One particularly exciting development is the emergence of Large Language Models (LLMs), which have captured the attention of numerous individuals.
@@ -20,7 +22,10 @@ In this article, we will take a "historical" journey through these novel models 
 
 By the end of this tutorial, you will gain valuable insights into the workings of NLP applications, including question-answering and sentiment analysis. You will have the knowledge to create language translation tools, text summarization systems, and even construct your own chatbot.
 
-## Pre-processing
+## Capabilities
+
+
+## Data preparation
 
 Most of the text is not clean, sometimes misspelling, or emojis for instance. 
 
@@ -30,17 +35,19 @@ To start, we’ll pre-process our textual data by removing punctuation, digits, 
 
 Then, we’ll build a supervised learning model for text analysis and split our dataset into a train and test set.
 
-- Pre-process the text review data and create a new column in the data frame which will hold the cleaned review data.
 - Removed punctuations and digits characters, lemmatization, Stop words, Stemming, and synonyms.
 - Build a supervised learning model for text analysis.
 - Split the dataset into a train and test-set.
 - Structured the data set of textual strings.
-### Text representation
+### Text normalization
 
-Text representation plays a crucial role in Natural Language Processing (NLP) as it transforms textual data into a numerical format that can be effectively processed by machine learning algorithms. In this section, we will explore various techniques for text representation, including statistical methods, encoding, and embedding.
+Text normalization plays a crucial role in Natural Language Processing (NLP) as it transforms textual data into a numerical format that can be effectively processed by machine learning algorithms. In this section, we will explore various techniques for text representation, including statistical methods, encoding, and embedding.
+
+**Tokenization** - Normalizing text means converting it to a more convenient, standard form. For example, most of what we are going to do with language relies on first separating out or tokenizing words from running **tokenization** text, the task of tokenization.
 #### Statistical techniques
 Next, we want to convert The words into a numerical representation, one is "feature representation".  
-The first method we’ll use is the [Bag of Words](https://himloul.github.io/posts/sentiment_analysis/#method-1-bag-of-words) approach, which represents text as a set of words and counts their occurrence.  
+
+**N-gram Language models**: The first method we’ll use is the [Bag of Words](https://himloul.github.io/posts/sentiment_analysis/#method-1-bag-of-words) approach, which represents text as a set of words and counts their occurrence.  
 The second method we’ll use is [TF-IDF](https://himloul.github.io/posts/sentiment_analysis/#method-2-tf-idf), which considers the frequency of each word in a document relative to its frequency in the entire dataset. 
 #### Encoding
 Encoding methods, such as one-hot encoding, label encoding, or ordinal encoding, transform categorical or textual data into a numerical representation. These methods assign numerical values or codes to words or categories.
