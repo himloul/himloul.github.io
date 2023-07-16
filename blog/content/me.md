@@ -12,9 +12,17 @@ comments: false
 hidemeta: true
 ---
 
-Hey there! My name is Hamza, and I'm a passionate NLP Engineer and Data Scientist with experience in incorporating NLP models in systems, implementing Transformer-based language models, and developing data and analytics web apps. I'm also interested in system design, game development, IoT, robotics, and embedded systems.
-
-In my free time, I usually explore LLM use cases, create cool web apps or draw fun doodles. I love giving back to the community by sharing information on my GitHub repos. Besides software and math, I am an illustrator, check my [artworks](https://www.behance.com/himl) 🎨.
+{{< rawhtml >}}
+<div style="display: flex; gap:20px; justify-content: center;">
+  <div style="flex: 1;">
+    <img src="/images/me.jpg" width = "150" style="border-radius: 50%;"/>
+  </div>
+  <div style="flex: 6;">
+      <p>Hey there! My name is Hamza, and I'm a passionate NLP Engineer and Data Scientist with experience in incorporating NLP models in systems, implementing Transformer-based language models, and developing data and analytics web apps. I'm also interested in system design, game development, IoT, robotics, and embedded systems.</p>
+      <p>In my free time, I usually explore LLM use cases, create cool web apps, or draw fun doodles. I love giving back to the community by sharing information on my GitHub repos. Besides software and math, I am an illustrator, check my <a href="https://www.behance.com/himl">artworks</a> 🎨.</p>
+  </div>
+</div>
+{{< /rawhtml >}}
 
 ## Resume
 
@@ -75,6 +83,3 @@ In my free time, I usually explore LLM use cases, create cool web apps or draw f
 </details>
 </span>
 {{< /rawhtml >}}
-
-
-<!-- {{< figure src="/images/oranges.jpg#center" caption="" align="center" width="75%">}} -->

@@ -37,7 +37,7 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
             width: 200px;
             height: 200px;
             object-fit: cover;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.40);
         }
 
     .image-overlay {
