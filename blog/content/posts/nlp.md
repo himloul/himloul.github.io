@@ -24,26 +24,21 @@ By the end of this tutorial, you will gain valuable insights into the workings o
 
 ## Capabilities
 
-
+Discussing Motivation, Use cases, challenges.
 ## Data preparation
-
-Most of the text is not clean, sometimes misspelling, or emojis for instance. 
-
-This step is the most important, to every NLP task, and it's always a good practice to feed clean data to the neural network. 
-
-To start, we’ll pre-process our textual data by removing punctuation, digits, stop words, and other irrelevant information.
-
-Then, we’ll build a supervised learning model for text analysis and split our dataset into a train and test set.
-
-- Removed punctuations and digits characters, lemmatization, Stop words, Stemming, and synonyms.
-- Build a supervised learning model for text analysis.
-- Split the dataset into a train and test-set.
-- Structured the data set of textual strings.
 ### Text normalization
 
 Text normalization plays a crucial role in Natural Language Processing (NLP) as it transforms textual data into a numerical format that can be effectively processed by machine learning algorithms. In this section, we will explore various techniques for text representation, including statistical methods, encoding, and embedding.
 
 **Tokenization** - Normalizing text means converting it to a more convenient, standard form. For example, most of what we are going to do with language relies on first separating out or tokenizing words from running **tokenization** text, the task of tokenization.
+
+Before that, it's always necessary to clean the textual data.
+
+**Data preparation** - Most of the text is not clean, sometimes misspelling, or emojis for instance. This step is the most important, to every NLP task, and it's always a good practice to feed clean data to the neural network. To start, we’ll pre-process our textual data by removing punctuation, digits, stop words, and other irrelevant information. Then, we’ll build a supervised learning model for text analysis and split our dataset into a train and test set.
+
+**lemmatization** - Removed punctuations and digits characters, **lemmatization**, Stemming, Stop words, Stemming, and synonyms. and also Sentence segmentation, and Spelling correction using Edit distance algorithm which is useful also for comparing similarity between strings.
+
+**Regular expressions** - are good to capture information from text, and structure the raw data. basically, regular expressions are used to process and validate strings.
 #### Statistical techniques
 Next, we want to convert The words into a numerical representation, one is "feature representation".  
 
