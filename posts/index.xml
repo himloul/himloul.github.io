@@ -26,6 +26,15 @@ CS231n CNN for Visual Recognition - Stanford CS class</description>
     
     <item>
       <title>Make a game for GBA using C&#43;&#43;</title>
+      <link>https://himloul.github.io/posts/event-based-vision-review/</link>
+      <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/event-based-vision-review/</guid>
+      <description>Review: Event-based vision algorithms </description>
+    </item>
+    
+    <item>
+      <title>Make a game for GBA using C&#43;&#43;</title>
       <link>https://himloul.github.io/posts/gba_game/</link>
       <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
       
@@ -33,6 +42,15 @@ CS231n CNN for Visual Recognition - Stanford CS class</description>
       <description>[🚧 Draft]
 I have an appreciation for retro games, particularly Nintendo games. The gameplay of The Legend of Zelda and the pixel art and environment of Wario Land 3 and 4 always leave me feeling hooked. Whenever I spent time playing pixel art games, I get that same sensation of being transported back to the golden age of handheld game consoles.
 In this demo, we will take on the challenge of building a game for Game Boy Advance.</description>
+    </item>
+    
+    <item>
+      <title>NLP from Sequential to Attention models</title>
+      <link>https://himloul.github.io/posts/nlp/</link>
+      <pubDate>Fri, 28 Oct 2022 00:12:00 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/nlp/</guid>
+      <description>Introduction This article explores the evolution of NLP driven by data availability. It covers generative AI concepts and provides a practical approach to NLP projects with code snippets. Deep Learning has significantly advanced NLP, especially with Large Language Models (LLMs). The article delves into these models, their applications, and implementation using popular frameworks like NLTK, PyTorch, TensorFlow, or Hugging Face. The tutorial aims to equip readers with insights to create NLP applications like question-answering, sentiment analysis, translation tools, text summarization, and chatbots.</description>
     </item>
     
     <item>
@@ -44,16 +62,6 @@ In this demo, we will take on the challenge of building a game for Game Boy Adva
       <description>The purpose of this technical report is to outline the process of creating a color-coded map that shows the geographic locations of members affiliated with a research center. we will build a software solution that would allow them to visually represent the distribution of members across various geographic locations.
 Figure 1: Spatial map visualizing multiple categories
 Context The software was designed to allow for the use of different types of users/layers, which required the creation of different colored clusters to reflect their affiliations.</description>
-    </item>
-    
-    <item>
-      <title>NLP from Sequential to Attention models</title>
-      <link>https://himloul.github.io/posts/nlp/</link>
-      <pubDate>Wed, 28 Jul 2021 00:12:00 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/posts/nlp/</guid>
-      <description>Introduction Having spent approximately a year immersed in the field of Natural Language Processing (NLP), my journey has been both insightful and rewarding. It all began with my exploration of transformer-based models like BERT, just a couple of months prior to the release of ChatGPT. Since then, there has been a surge of interest in Generative AI among developers and businesses alike.
-The evolution of NLP over the past decade has been remarkable, largely fueled by the vast amounts of data available on the internet.</description>
     </item>
     
     <item>

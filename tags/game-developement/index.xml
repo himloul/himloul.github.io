@@ -14,6 +14,15 @@
     <lastBuildDate>Sat, 14 Jan 2023 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/game-developement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make a game for GBA using C&#43;&#43;</title>
+      <link>https://himloul.github.io/posts/event-based-vision-review/</link>
+      <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/posts/event-based-vision-review/</guid>
+      <description>Review: Event-based vision algorithms </description>
+    </item>
+    
+    <item>
+      <title>Make a game for GBA using C&#43;&#43;</title>
       <link>https://himloul.github.io/posts/gba_game/</link>
       <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
       

@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jul 2021 00:12:00 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Oct 2022 00:12:00 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awesome resources: Data science and Beyond</title>
       <link>https://himloul.github.io/posts/good_resources/</link>
@@ -27,11 +27,10 @@ CS231n CNN for Visual Recognition - Stanford CS class</description>
     <item>
       <title>NLP from Sequential to Attention models</title>
       <link>https://himloul.github.io/posts/nlp/</link>
-      <pubDate>Wed, 28 Jul 2021 00:12:00 +0000</pubDate>
+      <pubDate>Fri, 28 Oct 2022 00:12:00 +0000</pubDate>
       
       <guid>https://himloul.github.io/posts/nlp/</guid>
-      <description>Introduction Having spent approximately a year immersed in the field of Natural Language Processing (NLP), my journey has been both insightful and rewarding. It all began with my exploration of transformer-based models like BERT, just a couple of months prior to the release of ChatGPT. Since then, there has been a surge of interest in Generative AI among developers and businesses alike.
-The evolution of NLP over the past decade has been remarkable, largely fueled by the vast amounts of data available on the internet.</description>
+      <description>Introduction This article explores the evolution of NLP driven by data availability. It covers generative AI concepts and provides a practical approach to NLP projects with code snippets. Deep Learning has significantly advanced NLP, especially with Large Language Models (LLMs). The article delves into these models, their applications, and implementation using popular frameworks like NLTK, PyTorch, TensorFlow, or Hugging Face. The tutorial aims to equip readers with insights to create NLP applications like question-answering, sentiment analysis, translation tools, text summarization, and chatbots.</description>
     </item>
     
   </channel>
