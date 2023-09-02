@@ -30,9 +30,8 @@ hidemeta: true
 <details>
   <summary>2022 — <b>NLP Product Developer <a href="https://dxc.com/us/en/services/insurance-software-bps/dxc-insurance-software/DXC-Assure-components"></b>@DXC Assure</a> · Hybrid</summary>
   <ul>
-    <li>Implemented the continuous training of a BERT based model for the semantic similarity NLP task.</li>
+    <li>Finetuned BERT based model for the semantic similarity NLP task.</li>
     <li>Developed a Closed-domain Information retieval system using Language models</li>
-    <li>Explored scenarios of using LLM in the industry.</li>
   </ul>
 </details>
 
