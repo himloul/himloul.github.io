@@ -1,5 +1,5 @@
 ---
-title: "Awesome resources: Data science and Beyond"
+title: "Awesome resources - Machine learning and Beyond"
 author: "Hamza imloul"
 # date: 2021-03-25T20:53:44Z
 ShowToc: true

@@ -30,8 +30,8 @@ hidemeta: true
 <details>
   <summary>2022 — <b>NLP Product Developer <a href="https://dxc.com/us/en/services/insurance-software-bps/dxc-insurance-software/DXC-Assure-components"></b>@DXC Assure</a> · Hybrid</summary>
   <ul>
-    <li>Finetuned BERT based model for the semantic similarity NLP task.</li>
-    <li>Developed a Closed-domain Information retieval system using Language models</li>
+    <li>Fine-tuned BERT based model for the semantic similarity NLP task.</li>
+    <li>Developed a Closed-domain Information retieval agent using Language models</li>
   </ul>
 </details>
 
@@ -45,12 +45,12 @@ hidemeta: true
 <details>
   <summary>2021 — <b>Freelance R/Python developer</b></summary>
   <ul>
-    <li>Collaborated with clients to develop Decision-making tools & Analytics web apps.</li>
+    <li>Collaborated with international clients to develop Decision-making tools & Analytics web apps.</li>
   </ul>
 </details>
 
 <details>
-  <summary>2019 — <b>Operations Data Analyst</b> @ Mixtra</summary>
+  <summary>2019 — <b>Operations Data Analyst</b> @Mixtra</summary>
   <ul>
     <li>Developed transportation anomaly detection tool and evaluated fleet mobility and congestion.</li>
   </ul>
@@ -63,13 +63,13 @@ hidemeta: true
       <details>
         <summary>2018 — 🎓 Graduated from Ecole Mohammadia d’Ingénieurs - Morocco</summary>
         <ul>
-          <li>M.eng. in Industrial engineering,<br>Interested in Applied Machine Learning and control theory.</li>
+          <li>M.eng. in engineering,<br>Interested in Applied Machine Learning and control theory.</li>
         </ul>
       </details>
       <details>
-        <summary>2014 — 📚 Graduated in Applied Math from Ibn Zohr University</summary>
+        <summary>2014 — 📚 Graduated in Applied Math from Ibn Zohr University - Morocco</summary>
         <ul>
-          <li>Applied math, Physics, and Computer science. <br>Interested in Algebra, Computer graphics, and Understanding the law of Physics.</li>
+          <li>Applied math, Physics, and Computer science. <br>Interested in Algebra, Computer graphics, and Understanding the laws of Physics.</li>
         </ul>
       </details>
       <details>

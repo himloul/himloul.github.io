@@ -84,20 +84,20 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
 
 </style>
 
-<div style="display: grid; grid-gap: 10px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 80%; justify-content: center;">
-    <div class="image-container" style="transform: rotate(-5deg);" onmousedown="dragStart(event)" ontouchstart="dragStart(event)">
+<div style="display: grid; grid-gap: 40px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 90%; justify-content: center;">
+    <div class="image-container" style="transform: rotate(-5deg); cursor: move;" onmousedown="dragStart(event)" ontouchstart="dragStart(event)">
         <img src="/images/carablanca.jpg" style="border-radius: 10px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
         <div class="image-overlay">
             <span>🏕️</span>
         </div>
     </div>
-    <div class="image-container" style="transform: rotate(3deg);" onmousedown="dragStart(event)" ontouchstart="dragStart(event)">
+    <div class="image-container" style="transform: rotate(3deg); cursor: move;" onmousedown="dragStart(event)" ontouchstart="dragStart(event)">
         <img src="/images/fresh_oranges_himloul.jpg" style="border-radius: 10px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
         <div class="image-overlay">
             <span>🍊</span>
         </div>
     </div>
-    <div class="image-container" style="transform: rotate(-2deg);" onmousedown="dragStart(event)" ontouchstart="dragStart(event)">
+    <div class="image-container" style="transform: rotate(-2deg); cursor: move;" onmousedown="dragStart(event)" ontouchstart="dragStart(event)">
         <img src="/images/sunset_pxlart_himloul.jpg" style="border-radius: 10px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
         <div class="image-overlay">
             <span>🎮</span>

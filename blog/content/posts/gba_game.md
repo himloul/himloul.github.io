@@ -1,10 +1,11 @@
 ---
-title: "Make a game for GBA using C++"
+title: "Game developement for GBA"
 author: "Hamza imloul"
 date: 2023-01-14T20:45:56Z
 ShowToc: true
 # katex: true
 math: true
+draft: True
 comments: trues
 tags: ["Game developement", "Portfolio", "GBA"]
 ---

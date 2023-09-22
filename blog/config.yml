@@ -86,16 +86,16 @@ params:
     Content: Hello, my name is Hamza and I am currently keeping track of my learning progress and personal projects through this blog. Alongside creating content on ML, I also work as a NLP engineer and helping my team in Applied research and Data science [more about me **here**](/me/).
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/hamzaonde"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/himloul"
+    - name: twitter
+      url: "https://twitter.com/hamzaonde"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
     - name: linkedin
       url: "https://www.linkedin.com/in/hamza-imloul"
-    - name: mastodon
-      url: "https://sigmoid.social/@himloul"
+    # - name: mastodon
+    #   url: "https://sigmoid.social/@himloul"
     - name: behance
       url: "https://www.behance.com/himloul"
 
