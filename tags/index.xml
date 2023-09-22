@@ -11,34 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jan 2023 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Game developement</title>
-      <link>https://himloul.github.io/tags/game-developement/</link>
-      <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/tags/game-developement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GBA</title>
-      <link>https://himloul.github.io/tags/gba/</link>
-      <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/tags/gba/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://himloul.github.io/tags/portfolio/</link>
-      <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/tags/portfolio/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 28 Oct 2022 00:12:00 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data science</title>
       <link>https://himloul.github.io/tags/data-science/</link>
@@ -72,6 +45,15 @@
       <pubDate>Wed, 22 Sep 2021 20:45:56 +0000</pubDate>
       
       <guid>https://himloul.github.io/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://himloul.github.io/tags/portfolio/</link>
+      <pubDate>Wed, 22 Sep 2021 20:45:56 +0000</pubDate>
+      
+      <guid>https://himloul.github.io/tags/portfolio/</guid>
       <description></description>
     </item>
     
