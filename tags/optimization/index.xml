@@ -9,19 +9,18 @@
       <url>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jun 2021 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 20:45:56 +0000</lastBuildDate>
+    <atom:link href="https://himloul.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Capacitated VRP of taxis service 🚖</title>
       <link>https://himloul.github.io/posts/cvrp_malta/</link>
       <pubDate>Mon, 14 Jun 2021 20:45:56 +0000</pubDate>
-      
       <guid>https://himloul.github.io/posts/cvrp_malta/</guid>
       <description>Introduction The Capacitated Vehicle Routing Problem (CVRP) is a variant of the well-known Vehicle Routing Problem (VRP) in which each vehicle has a limited capacity and the aim is to find the optimal routes for a fleet of vehicles to deliver goods to a set of customers while minimizing the total distance traveled.
 Figure 1: vehicle routing plan solution taking an example of taxis given a set of users
 Modelling the problem In the context of a taxi service, the CVRP can be used to determine the most efficient routes for taxis to pick up and drop off passengers while taking into account the capacity of each taxi (i.</description>
     </item>
-    
   </channel>
 </rss>

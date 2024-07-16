@@ -2,35 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GBA on Hamza&#39;s blog</title>
-    <link>https://himloul.github.io/tags/gba/</link>
+    <link>http://localhost:1313/tags/gba/</link>
     <description>Recent content in GBA on Hamza&#39;s blog</description>
     <image>
       <title>Hamza&#39;s blog</title>
-      <url>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://himloul.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jan 2023 20:45:56 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/gba/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jan 2023 20:45:56 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gba/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Make a game for GBA using C&#43;&#43;</title>
-      <link>https://himloul.github.io/posts/event-based-vision-review/</link>
+      <title>Event-based vision algorithms - Review</title>
+      <link>http://localhost:1313/posts/event-based-vision-review/</link>
       <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/posts/event-based-vision-review/</guid>
+      <guid>http://localhost:1313/posts/event-based-vision-review/</guid>
       <description>Review: Event-based vision algorithms </description>
     </item>
-    
     <item>
-      <title>Make a game for GBA using C&#43;&#43;</title>
-      <link>https://himloul.github.io/posts/gba_game/</link>
+      <title>Game developement for GBA</title>
+      <link>http://localhost:1313/posts/gba_game/</link>
       <pubDate>Sat, 14 Jan 2023 20:45:56 +0000</pubDate>
-      
-      <guid>https://himloul.github.io/posts/gba_game/</guid>
+      <guid>http://localhost:1313/posts/gba_game/</guid>
       <description>[🚧 Draft]
 I have an appreciation for retro games, particularly Nintendo games. The gameplay of The Legend of Zelda and the pixel art and environment of Wario Land 3 and 4 always leave me feeling hooked. Whenever I spent time playing pixel art games, I get that same sensation of being transported back to the golden age of handheld game consoles.
 In this demo, we will take on the challenge of building a game for Game Boy Advance.</description>
     </item>
-    
   </channel>
 </rss>
