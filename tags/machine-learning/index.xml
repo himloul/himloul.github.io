@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine learning on Hamza&#39;s blog</title>
     <link>https://himloul.github.io/tags/machine-learning/</link>
@@ -11,27 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Oct 2022 00:12:00 +0000</lastBuildDate><atom:link href="https://himloul.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Oct 2022 00:12:00 +0000</lastBuildDate>
+    <atom:link href="https://himloul.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awesome resources - Machine learning and Beyond</title>
       <link>https://himloul.github.io/posts/good_resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://himloul.github.io/posts/good_resources/</guid>
       <description>Exploring resources into Data science and Beyond. I share with you, some of the resources I considered during the last recent years, to learn data science and operations research, outside of my academic curriculum. 😎
 Courses 📝 Home | CS324 (stanford-cs324.github.io) - CS324 - Large Language Models
 Harvard CS197: AI Research Experiences - Dive into dev tools like Pytorch, Lightning, and HF
 CS231n CNN for Visual Recognition - Stanford CS class</description>
     </item>
-    
     <item>
       <title>NLP from Sequential to Attention models</title>
       <link>https://himloul.github.io/posts/nlp/</link>
       <pubDate>Fri, 28 Oct 2022 00:12:00 +0000</pubDate>
-      
       <guid>https://himloul.github.io/posts/nlp/</guid>
-      <description>Introduction This article explores the evolution of NLP driven by data availability. It covers generative AI concepts and provides a practical approach to NLP projects with code snippets. Deep Learning has significantly advanced NLP, especially with Large Language Models (LLMs). The article delves into these models, their applications, and implementation using popular frameworks like NLTK, PyTorch, TensorFlow, or Hugging Face. The tutorial aims to equip readers with insights to create NLP applications like question-answering, sentiment analysis, translation tools, text summarization, and chatbots.</description>
+      <description>Introduction Large Language models demonstrated to be a standalone system, performing multiple text-based tasks like question-answering, text summarization, and chatbots, which is by the way a cool concept and making them statistically efficient, and building software on top of them is a lot easier now.
+Let&amp;rsquo;s review the evolution of NLP, their applications. The article is an introdcution, and not requiring advanced knowledge since we are covering the high-level information.</description>
     </item>
-    
   </channel>
 </rss>
