@@ -33,7 +33,7 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
         }
 
     .image-container img {
-            border-radius: 10px;
+            border-radius: 0px;
             width: 200px;
             height: 200px;
             object-fit: cover;
@@ -49,7 +49,7 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
         height: 86%;
         background-color: rgba(255, 255, 255, 0.5);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-        border-radius: 10px;
+        border-radius: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -68,37 +68,40 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
         font-size: 36px;
         /* background-color: rgba(255, 255, 255, 0.5);
         padding: 10px;
-        border-radius: 10px; */
+        border-radius: 0px; */
     }
     body {
         /* font-family: "Lucida Console", Monaco, monospace; */
-        color: #035d91;
-        background-image: url("/images/notepad.svg");
-        background-repeat: repeat;
+        color: #e0ddd7;
+        /* Related to the effect of notepad lines */
+        background: linear-gradient(to bottom, rgba(224, 221, 215, 0.5) 1px, transparent 1px),
+                    linear-gradient(to right, rgba(224, 221, 215, 0.5) 1px, transparent 1px);
+        background-size: 20px 20px; /* Adjust as needed */
+        background-color: #f7f5eb; /* Light grey background */
     }
 
     .nav {
         /* background-color: #ffc92966; */
-        border-bottom: 2px solid #9687ff;
+        /* border-bottom: 2px solid #a09d98; */
     }
 
 </style>
 
 <div style="display: grid; grid-gap: 40px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 90%; justify-content: center;">
-    <div class="image-container" style="transform: rotate(-5deg); cursor: move;" onmousedown="dragStart(event)" ontouchstart="dragStart(event)">
-        <img src="/images/carablanca.jpg" style="border-radius: 10px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
+    <div class="image-container" style="transform: rotate(-5deg); cursor: grab;" >
+        <img src="/images/carablanca.jpg" style="border-radius: 0px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
         <div class="image-overlay">
             <span>🏕️</span>
         </div>
     </div>
-    <div class="image-container" style="transform: rotate(3deg); cursor: move;" onmousedown="dragStart(event)" ontouchstart="dragStart(event)">
-        <img src="/images/fresh_oranges_himloul.jpg" style="border-radius: 10px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
+    <div class="image-container" style="transform: rotate(3deg); cursor: grab;">
+        <img src="/images/fresh_oranges_himloul.jpg" style="border-radius: 0px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
         <div class="image-overlay">
             <span>🍊</span>
         </div>
     </div>
-    <div class="image-container" style="transform: rotate(-2deg); cursor: move;" onmousedown="dragStart(event)" ontouchstart="dragStart(event)">
-        <img src="/images/sunset_pxlart_himloul.jpg" style="border-radius: 10px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
+    <div class="image-container" style="transform: rotate(-2deg); cursor: grab;">
+        <img src="/images/sunset_pxlart_himloul.jpg" style="border-radius: 0px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
         <div class="image-overlay">
             <span>🎮</span>
         </div>
@@ -106,10 +109,9 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
 </div>
 
 <script>
-        class DraggableImage {
+    class DraggableImage {
             constructor(container) {
                 this.container = container;
-                this.dragItem = null;
                 this.active = false;
                 this.currentX = 0;
                 this.currentY = 0;
@@ -119,17 +121,22 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
                 this.yOffset = 0;
                 this.initialRotation = parseFloat(container.style.transform.match(/-?\d+(\.\d+)?/));
 
-                this.container.addEventListener("mousedown", (e) => this.dragStart(e));
-                this.container.addEventListener("touchstart", (e) => this.dragStart(e), { passive: false });
-                document.addEventListener("mouseup", (e) => this.dragEnd(e));
-                document.addEventListener("touchend", (e) => this.dragEnd(e));
-                document.addEventListener("mousemove", (e) => this.drag(e));
-                document.addEventListener("touchmove", (e) => this.drag(e), { passive: false });
+                this.container.addEventListener("mousedown", this.dragStart.bind(this));
+                this.container.addEventListener("touchstart", this.dragStart.bind(this), { passive: false });
+                document.addEventListener("mouseup", this.dragEnd.bind(this));
+                document.addEventListener("touchend", this.dragEnd.bind(this));
+                document.addEventListener("mousemove", this.drag.bind(this));
+                document.addEventListener("touchmove", this.drag.bind(this), { passive: false });
+                this.dragItem = null;
             }
 
             dragStart(e) {
                 e = e || window.event;
+                if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') {
+                    return;  // Don't drag if the click is on a link or button
+                }
                 e.preventDefault();
+                this.dragItem = this.container;
                 if (e.type === "touchstart") {
                     this.initialX = e.touches[0].clientX - this.xOffset;
                     this.initialY = e.touches[0].clientY - this.yOffset;
@@ -138,17 +145,22 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
                     this.initialY = e.clientY - this.yOffset;
                 }
                 this.active = true;
-                this.dragItem = this.container;
+                this.container.style.cursor = 'grabbing'; // Change the cursor
             }
 
             dragEnd(e) {
                 this.active = false;
+                if(this.dragItem){
+                    this.dragItem.style.cursor = 'grab';
+                }
+                this.dragItem = null;
+
             }
 
             drag(e) {
                 e = e || window.event;
                 e.preventDefault();
-                if (this.active) {
+                if (this.active && this.dragItem) {
                     if (e.type === "touchmove") {
                         this.currentX = e.touches[0].clientX - this.initialX;
                         this.currentY = e.touches[0].clientY - this.initialY;
@@ -175,20 +187,4 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
 </script>
 
 
-{{< /rawhtml >}} 
-
-<!--
-[Collect prints](#link){: .btn .btn--success .btn--large .align-center}  
-
-<div style="text-align: center">
-  <div class="flex-container" style="vertical-align: top">
-    <img src="/images/fresh_oranges_himloul.jpg" width = "150"/>
-    <img src="/images/sunset_pxlart_himloul.jpg" width = "150"/>
-    <img src="/images/carablanca.jpg" width = "150"/>
-  </div>
-</div>
--->
-  
-<!--
-  <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'2YaOkhxSryTRbAkzrJcb'});Pixlee.addSimpleWidget({widgetId:'34605'});};</script><script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
--->
+{{< /rawhtml >}}
