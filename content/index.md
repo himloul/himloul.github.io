@@ -1,12 +1,14 @@
 ---
-title: 🍉 himloul's Notes
+title: 🍉 Hamza's Notes
 date: false
 ---
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; align-items: center;">
+  <!--
   <div style="flex: 0 0 150px; display: flex; justify-content: center;">
     <img src="assets/images/me.jpg" width="150" style="border-radius: 50%; filter: grayscale(100%);" alt="Profile photo of Hamza" />
   </div>
+  -->
   <div style="flex: 1 1 300px; min-width: 0;">
     <p>My name is Hamza, and I'm a passionate Data Scientist with experience in incorporating AI models in systems. This involves implementing language models, and developing services. I'm also interested in system design, game development, IoT, robotics, and embedded systems.</p>
     <p>In my free time, I usually explore game design and development, you can check some of my open-source projects on GitHub. I am also an illustrator, check my <a href="hobbies/sketches.md">sketches</a> 🎨.</p>
@@ -24,7 +26,7 @@ This is where I share my notes.
 [Full resume](assets/files/resume.pdf)
 
 <details>
-  <summary>2022 — <b>NLP Product Developer <a href="https://dxc.com/us/en/services/insurance-software-bps/dxc-insurance-software/DXC-Assure-components"></b>@DXC Assure</a> · Hybrid</summary>
+  <summary>2022 — <b>NLP Product Developer</b> <a href="https://dxc.com/us/en/offerings/insurance-software-bps/dxc-insurance-software/dxc-ai-solutions-for-insurance">@DXC Assure</a> · Hybrid</summary>
   <ul>
     <li>Fine-tuned BERT based model for the semantic similarity NLP task.</li>
     <li>Developed a Closed-domain Information retieval agent using Language models</li>
