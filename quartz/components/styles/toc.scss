@@ -63,6 +63,9 @@ button.toc-header {
         opacity: 0.75;
       }
     }
+    & > li {
+      padding: 0.1rem 0; /* Add padding between list items */
+    }
   }
 
   @for $i from 0 through 6 {
