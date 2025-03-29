@@ -106,6 +106,12 @@ a {
       fill: var(--dark);
     }
   }
+
+  &.external { // this whole section was added
+    text-decoration: underline solid;
+    text-decoration-color: color-mix(in srgb, var(--secondary) 50%, transparent); //underline with 50% opacity
+    opacity: 0.9;
+  }
 }
 
 .desktop-only {
