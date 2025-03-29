@@ -6,23 +6,17 @@
       <description>Last 10 notes on himloul</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>test</title>
-    <link>https://himloul.github.io/posts/test</link>
-    <guid>https://himloul.github.io/posts/test</guid>
-    <description></description>
-    <pubDate>Mon, 24 Mar 2025 21:50:59 GMT</pubDate>
-  </item><item>
-    <title>🍉 himloul&#039;s Notes</title>
+    <title>🍉 Hamza&#039;s Notes</title>
     <link>https://himloul.github.io/</link>
     <guid>https://himloul.github.io/</guid>
     <description> My name is Hamza, and I&#039;m a passionate Data Scientist with experience in incorporating AI models in systems.</description>
-    <pubDate>Mon, 24 Mar 2025 21:50:59 GMT</pubDate>
+    <pubDate>Sat, 29 Mar 2025 02:28:48 GMT</pubDate>
   </item><item>
     <title>Sketches</title>
     <link>https://himloul.github.io/hobbies/sketches</link>
     <guid>https://himloul.github.io/hobbies/sketches</guid>
-    <description>My personal art hobby In my free time I like to make illustrations and Graphic design! Check out my illustrations #container { display: grid; grid-gap: 10px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 80%; justify-content: center; } .image-container img { border-radius: 8px; /* Slig...</description>
-    <pubDate>Mon, 24 Mar 2025 21:50:59 GMT</pubDate>
+    <description>My personal art hobby In my free time I like to make illustrations and Graphic design! Check out my illustrations #container { display: grid; grid-gap: 10px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 80%; justify-content: center; } .image-container img { border-radius: 1px; /* Slig...</description>
+    <pubDate>Sat, 29 Mar 2025 02:28:48 GMT</pubDate>
   </item><item>
     <title>Awesome resources - ML and Beyond</title>
     <link>https://himloul.github.io/posts/good_resources</link>
