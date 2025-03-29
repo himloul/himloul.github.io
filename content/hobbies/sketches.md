@@ -60,8 +60,8 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
 
     body {
         color: #e0ddd7;
-        background: linear-gradient(to bottom, rgba(215, 224, 217, 0.2) 1px, transparent 1px),
-        linear-gradient(to right, rgba(215, 224, 217, 0.2) 1px, transparent 1px);
+        background: linear-gradient(to bottom, #9bab8520 1px, transparent 1px),
+        linear-gradient(to right, #9bab8520 1px, transparent 1px);
         background-size: 20px 20px;
     }
 
