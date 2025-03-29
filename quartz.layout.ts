@@ -25,21 +25,18 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     // Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: false,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
     /* Component.Explorer({
       folderClickBehavior: "link",
       folderDefaultState: "collapsed"
     }), */
   ],
   right: [
+    Component.Flex({
+      components: [
+        { Component: Component.Search(), grow: false, },
+        { Component: Component.Darkmode() },
+      ],
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     // Component.Graph(),
@@ -56,21 +53,18 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     // Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: false,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
     /* Component.Explorer({
       folderClickBehavior: "link",
       folderDefaultState: "collapsed"
     }), */
   ],
   right: [
+    Component.Flex({
+      components: [
+        { Component: Component.Search(), grow: false, },
+        { Component: Component.Darkmode() },
+      ],
+    }),
     // Component.Graph(),
   ],
 }
