@@ -9,6 +9,9 @@
   margin: 0 10px;
   text-align: inherit;
   flex-shrink: 0;
+  display: flex;         /* Add flexbox properties */
+  align-items: center;  /* Vertically center the content */
+  justify-content: center;
 
   & svg {
     position: absolute;
@@ -18,6 +21,10 @@
     fill: var(--darkgray);
     transition: opacity 0.1s ease;
   }
+}
+
+:root {
+  transition: 0.2s color, 0.2s background-color; /* Add transition here */
 }
 
 :root[saved-theme="dark"] {
