@@ -3,31 +3,27 @@ title: Sketches
 ---
 
 ### My personal art hobby
-  
-In my free time I like to make illustrations and Graphic design! Check out my [illustrations](https://himl.tumblr.com/)
 
-<!-- <center>
-<img src="/images/himloul.gif" alt="drawing" width="125"/>
-</center> -->
+In my free time I like to make illustrations and Graphic design! Check out my [illustrations](https://himl.tumblr.com/)
 
 <style>
     #container {
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: repeat(3, 1fr);
-            margin: auto;
-            width: 80%;
-            justify-content: center;
-        }
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto;
+        width: 80%;
+        justify-content: center;
+    }
 
     .image-container img {
-            border-radius: 8px; /* Slightly rounded corners */
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* Refined shadow */
-            transition: transform 0.3s ease; /* Smooth transition on hover */
-        }
+        border-radius: 1px; /* Slightly rounded corners */
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* Refined shadow */
+        transition: transform 0.3s ease; /* Smooth transition on hover */
+    }
 
     .image-container:hover img {
         transform: scale(1.05); /* Slight zoom on hover */
@@ -40,7 +36,7 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.6); /* Darker, semi-transparent background */
-        border-radius: 2px; /* Match image border radius */
+        border-radius: 1px; /* Match image border radius */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -61,32 +57,79 @@ In my free time I like to make illustrations and Graphic design! Check out my [i
     .image-overlay span {
         font-size: 2em; /* Larger, more modern size */
     }
+
     body {
-        /* font-family: "Lucida Console", Monaco, monospace; */
         color: #e0ddd7;
-        /* Related to the effect of notepad lines */
-        background: linear-gradient(to bottom, rgba(224, 221, 215, 0.4) 1px, transparent 1px),
-                    linear-gradient(to right, rgba(224, 221, 215, 0.4) 1px, transparent 1px);
-        background-size: 20px 20px; /* Adjust as needed */
-        /* background-color: #f7f5eb; /* Light grey background */
+        background: linear-gradient(to bottom, rgba(215, 224, 217, 0.2) 1px, transparent 1px),
+        linear-gradient(to right, rgba(215, 224, 217, 0.2) 1px, transparent 1px);
+        background-size: 20px 20px;
     }
 
-    .nav {
-        /* background-color: #ffc92966; */
-        /* border-bottom: 2px solid #a09d98; */
+    /* Media query for mobile devices (example: screen width less than 768px) */
+    @media (max-width: 768px) {
+        #container {
+            grid-template-columns: repeat(1, 1fr); /* Single column layout on mobile */
+            width: 95%; /* Adjust width for smaller screens */
+        }
+
+        .image-container img {
+            width: 100%; /* Make images take full width of container */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .image-container {
+            margin-bottom: 20px; /* Add some space between images on mobile */
+        }
+
+        .image-overlay span {
+            font-size: 1.5em; /* Adjust overlay text size for mobile */
+        }
+    }
+
+    /* Styles for the image container div*/
+    .gallery-container {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .gallery-image-container {
+        transform: rotate(-5deg);
+        cursor: grab;
+    }
+
+    /* Media query for mobile devices (example: screen width less than 768px) */
+    @media (max-width: 768px) {
+        .gallery-container {
+            grid-template-columns: repeat(1, 1fr); /* Single column layout on mobile */
+            width: 95%; /* Adjust width for smaller screens */
+            grid-gap: 20px;
+            align-items: center; /* Center items vertically */
+            place-items: center;
+
+        }
+
+        .gallery-image-container {
+            transform: rotate(0deg);
+            align-items: center; /* Center items vertically */
+        }
     }
 
 </style>
 
-<div style="display: grid; grid-gap: 40px; grid-template-columns: repeat(3, 1fr); margin: auto; width: 90%; justify-content: center;">
-    <div class="image-container" style="transform: rotate(-5deg); cursor: grab;" >
-        <img src="../assets/images/carablanca.jpg" style="border-radius: 8px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
+<!-- Gallery with transform rotate included-->
+<div class="gallery-container">
+    <div class="gallery-image-container" style="transform: rotate(-5deg); cursor: grab;">
+        <img src="../assets/images/carablanca.jpg" style="border-radius: 3px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
     </div>
-    <div class="image-container" style="transform: rotate(3deg); cursor: grab;">
-        <img src="../assets/images/fresh_oranges_himloul.jpg" style="border-radius: 8px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
+    <div class="gallery-image-container" style="transform: rotate(3deg); cursor: grab;">
+        <img src="../assets/images/fresh_oranges_himloul.jpg" style="border-radius: 3px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
     </div>
-    <div class="image-container" style="transform: rotate(-2deg); cursor: grab;">
-        <img src="../assets/images/sunset_pxlart_himloul.jpg" style="border-radius: 8px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
+    <div class="gallery-image-container" style="transform: rotate(-2deg); cursor: grab;">
+        <img src="../assets/images/sunset_pxlart_himloul.jpg" style="border-radius: 3px; width: 200px; height: 200px; object-fit: cover;" ondragstart="return false;">
     </div>
 </div>
 
