@@ -23,29 +23,29 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Cardo",
-        body: "Open Sans",
+        header: "Schibsted Grotesk",
+        body: "Atkinson Hyperlegible",
         code: "Source Code Pro",
       },
       colors: {
         lightMode: {
-          light: "#FFFFFF", // Paper-like light background
-          lightgray: "#D3D3D350", // Lighter gray for contrast
-          gray: "#A9A9A9", // Medium gray
-          darkgray: "#191919", // Darker gray for text
-          dark: "#000000", // Black for important text
-          secondary: "#696969", // Brownish tone for secondary elements
-          tertiary: "#8FBC8F", // Muted green for tertiary elements
-          highlight: "rgba(143, 159, 169, 0.0)", // Subtle highlight
+          light: "#ffffff",
+          lightgray: "#dde2d5",
+          gray: "#9bab85",
+          darkgray: "#303030",
+          dark: "#292f22",
+          secondary: "#3e4733",
+          tertiary: "#84a59d",
+          highlight: "rgba(191,201,176, 0.25)",
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
+          light: "#161616",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
+          secondary: "#9bab85",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
