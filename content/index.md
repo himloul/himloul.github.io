@@ -10,8 +10,8 @@ date: false
   </div>
   -->
   <div style="flex: 1 1 300px; min-width: 0;">
-    <p>My name is Hamza, and I'm a passionate Data Scientist with experience in incorporating AI models in systems. This involves implementing language models, and developing services. I'm also interested in system design, game development, IoT, robotics, and embedded systems.</p>
-    <p>In my free time, I usually explore game design and development, you can check some of my open-source projects on GitHub. I am also an illustrator, check my <a href="hobbies/sketches.md">sketches</a> 🎨.</p>
+    <p>My name is Hamza, a Data Scientist with experience in incorporating AI models (LLMs) in services. I'm also interested in system design, game development, IoT, robotics, and embedded systems.</p>
+    <p>In my free time, I usually explore game development, you can check some of my open-source projects on GitHub. I am also an illustrator, check my <a href="hobbies/sketches.md">sketches</a> 🎨.</p>
   </div>
 </div>
 
