@@ -15,42 +15,34 @@ date: false
   </div>
 </div>
 
-This is where I share my notes.
-
-## Recent Blog Posts
-
-📋 Check out my [[posts/]]
-
-## Resume
-
-[Full resume](assets/files/resume.pdf)
+**📋 [[posts/ | posts]]**
 
 <details>
-  <summary>2022 — <b>NLP Product Developer</b> <a href="https://dxc.com/us/en/offerings/insurance-software-bps/dxc-insurance-software/dxc-ai-solutions-for-insurance">@DXC Assure</a> · Hybrid</summary>
+  <summary>2022 — <b>Data Scientist (AI & ML)</b> <a href="https://dxc.com/us/en/offerings/insurance-software-bps/dxc-insurance-software/dxc-ai-solutions-for-insurance">@DXC Assure</a> · Hybrid</summary>
   <ul>
-    <li>Fine-tuned BERT based model for the semantic similarity NLP task.</li>
-    <li>Developed a Closed-domain Information retieval agent using Language models</li>
+    <li>Developed and deployed a closed-domain Information retieval agent using the RAG pattern</li>
+    <li>Fine-tuned bi-encoder model on domain data, improving semantic search accuracy</li>
   </ul>
 </details>
 
 <details>
-  <summary>2022 — <b>Analytics developer</b> <a href="https://www.q2m2.com/">@Q2M2</a> · Freelance</summary>
+  <summary>2022 — <b>Data Analytics Developer</b> <a href="https://www.q2m2.com/">@Q2M2</a> · Freelance</summary>
   <ul>
     <li>Developed and Deployed Data & Analytics web apps #Python (Flask), #R (Shiny) #Docker</li>
   </ul>
 </details>
 
 <details>
-  <summary>2021 — <b>Freelance R/Python developer</b></summary>
+  <summary>2021 — <b>R/Python Developer</b> · Freelance</summary>
   <ul>
     <li>Collaborated with international clients to develop Decision-making tools & Analytics web apps.</li>
   </ul>
 </details>
 
 <details>
-  <summary>2019 — <b>Operations Data Analyst</b> @Mixtra</summary>
+  <summary>2019 — <b>Data Analyst</b> @Mixtra</summary>
   <ul>
-    <li>Developed transportation anomaly detection tool and evaluated fleet mobility and congestion.</li>
+    <li>Developed a service for transportation anomaly detection and evaluated fleet mobility and congestion.</li>
   </ul>
 </details>
 
@@ -79,3 +71,5 @@ This is where I share my notes.
   </ul>
 </details>
 </span>
+
+**💼 [Full resume](assets/files/resume.pdf)**
