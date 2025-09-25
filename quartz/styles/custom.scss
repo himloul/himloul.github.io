@@ -1,3 +1,57 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+@use "./variables.scss" as *;
+
+@media all and ($tablet) {
+  .page > #quartz-body {
+    /* single-column layout (center, then footer) */
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto !important;
+    grid-template-areas:
+      "grid-center"
+      "grid-footer" !important;
+    column-gap: 0 !important;
+    row-gap: 0 !important;
+
+    /* outer gutters */
+    padding: 0 2rem !important;
+    box-sizing: border-box !important;
+  }
+
+  /* hide sidebars */
+  .page > #quartz-body .sidebar,
+  .page > #quartz-body .sidebar.left,
+  .page > #quartz-body .sidebar.right {
+    display: none !important;
+  }
+
+  .page > #quartz-body .center {
+    grid-area: grid-center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    /* constrain text width for readability */
+    max-width: min(90vw, 50ch) !important;
+
+    /* small inner padding so content doesn't touch edges */
+    padding: 0rem 8rem 0 8rem !important;
+
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .page > #quartz-body footer {
+    grid-area: grid-footer !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    /* align footer with outer gutters */
+    padding: 0rem 8rem 0 8rem !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    max-width: min(90vw, 50ch) !important;
+  }
+}
+
