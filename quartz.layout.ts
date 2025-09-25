@@ -21,17 +21,25 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-  ],
-  left: [
-    // Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
         { Component: Component.Search(), grow: false, },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        // { Component: Component.ReaderMode() },
       ],
     }),
+  ],
+  left: [
+    // Component.PageTitle(),
+    // Component.MobileOnly(Component.Spacer()),
+    // Component.Flex({
+    //   components: [
+    //     { Component: Component.Search(), grow: false, },
+    //     { Component: Component.Darkmode() },
+    //     { Component: Component.ReaderMode() },
+    //   ],
+    // }),
 
     /* Component.Explorer({
       title: "Explorer",
@@ -64,13 +72,13 @@ export const defaultListPageLayout: PageLayout = {
   ],
   left: [
     // Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        { Component: Component.Search(), grow: false, },
-        { Component: Component.Darkmode() },
-      ],
-    }),
+    //Component.MobileOnly(Component.Spacer()),
+    //Component.Flex({
+      //components: [
+        //{ Component: Component.Search(), grow: false, },
+        //{ Component: Component.Darkmode() },
+      //],
+    //}),
     /* Component.Explorer({
       folderClickBehavior: "link",
       folderDefaultState: "collapsed"
