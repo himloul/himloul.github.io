@@ -28,7 +28,14 @@ Additionally, the map was made downloadable in a self-contained html page, which
 
 The workflow developed for the client looked like this:
 
-![[assets/images/bmsc.excalidraw.png]]
+```mermaid
+flowchart LR
+    A[CSV Data] --> B[R Shiny App] 
+    B --> C[Interactive Map]
+    B --> D[Export Module]
+    C --> E[Web Interface]
+```
+
 
 <!-- {{< include-html "map_bmsc.html" >}} -->
 
