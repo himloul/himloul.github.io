@@ -4,7 +4,7 @@ title: Sketches
 
 ### My personal art hobby
 
-In my free time I like to make illustrations and Graphic design! Check out my [illustrations](https://himl.tumblr.com/)
+In my free time I like to make illustrations and Graphic design! Check out my [illustrations](https://www.behance.net/hamzaim)
 
 <style>
     #container {
