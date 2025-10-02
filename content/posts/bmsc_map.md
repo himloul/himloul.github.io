@@ -3,10 +3,12 @@ title: "Spider Maps: Visualizing Clustered Networks"
 date: 03.14.2022
 ---
 
-This article shares the story behind creating a custom map to visualize research center member locations. The project began when a client needed to replace their Google Maps-based solution with something more cost-effective and easier to maintain. Their manual process of updating location data was becoming unsustainable, especially since the Google Maps embedding service was incurring costs.
+This article shares the context behind creating a custom map to visualize research center member locations. The project began when a client needed to replace their Google Maps-based solution with something more cost-effective and easier to maintain. Their manual process of updating location data was becoming unsustainable, especially since the Google Maps embedding service was incurring costs.
 
-![[assets/images/bmscmap.jpg|Figure 1: Spatial map visualizing multiple categories]]
-_Each color on this map represents a different membership category within the research community_
+<figure align="center">
+  <img src="assets/images/bmscmap.jpg" alt="Each color on this map represents a different membership category within the research community" width="70%">
+  <figcaption>A red bicycle leaning against a blue wall.</figcaption>
+</figure>
 
 ## The challenge
 
@@ -44,8 +46,8 @@ flowchart LR
 {{< /rawhtml >}} -->
 
 
-The client was particularly pleased with the "spider" feature that elegantly solved their overlapping markers problem. Another benefit was how the map revealed previously unnoticed patterns in their membership distribution - showing regional concentrations, category clusters, and international reach in ways that weren't apparent from their database.
+The client was particularly pleased with the "spider" feature that elegantly solved their overlapping markers problem. Another benefit was how the map revealed previously unnoticed patterns in their membership distribution - showing regional concentrations, category clusters, and international reach in ways that weren't apparent from their database. [Link to the map.](https://bamfieldmsc.com/research-overview)
 
-[Link to the map.](https://bamfieldmsc.com/research-overview)
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Where do our researchers come from? Check out our new interactive map! <a href="https://t.co/D5glRaTHuI">https://t.co/D5glRaTHuI</a><a href="https://twitter.com/UVicScience?ref_src=twsrc%5Etfw">@UVicScience</a> <a href="https://twitter.com/ubcscience?ref_src=twsrc%5Etfw">@ubcscience</a> <a href="https://twitter.com/SFU_Science?ref_src=twsrc%5Etfw">@SFU_Science</a> <a href="https://twitter.com/ualbertaScience?ref_src=twsrc%5Etfw">@ualbertaScience</a> @UofC_Science <br><br>constructed by: <a href="https://twitter.com/hamzaonde?ref_src=twsrc%5Etfw">@hamzaonde</a> <a href="https://t.co/hPc9ChceHD">pic.twitter.com/hPc9ChceHD</a></p>&mdash; Bamfield MSC (@BamfieldMSC) <a href="https://twitter.com/BamfieldMSC/status/1442878031375204354?ref_src=twsrc%5Etfw">September 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<div align="center">
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Where do our researchers come from? Check out our new interactive map! <a href="https://t.co/D5glRaTHuI">https://t.co/D5glRaTHuI</a><a href="https://twitter.com/UVicScience?ref_src=twsrc%5Etfw">@UVicScience</a> <a href="https://twitter.com/ubcscience?ref_src=twsrc%5Etfw">@ubcscience</a> <a href="https://twitter.com/SFU_Science?ref_src=twsrc%5Etfw">@SFU_Science</a> <a href="https://twitter.com/ualbertaScience?ref_src=twsrc%5Etfw">@ualbertaScience</a> @UofC_Science <br><br>constructed by: <a href="https://twitter.com/hamzaonde?ref_src=twsrc%5Etfw">@hamzaonde</a> <a href="https://t.co/hPc9ChceHD">pic.twitter.com/hPc9ChceHD</a></p>&mdash; Bamfield MSC (@BamfieldMSC) <a href="https://twitter.com/BamfieldMSC/status/1442878031375204354?ref_src=twsrc%5Etfw">September 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
