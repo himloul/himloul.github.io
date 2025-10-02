@@ -1,52 +1,64 @@
 ---
-title: "Automated Data processing for metrics reporting"
+title: "Reproducible reporting with R"
 date: 2020-08-20T00:04:05Z
 ---
 
-In today's data-driven world, processing and reporting on data is a crucial aspect of making informed decisions. However, manually processing and reporting on data can be time-consuming and tedious. In this article, we will show you how to automate the data processing of your metrics reporting using R.
+When managing transportation and logistics, accurate and up-to-date trip metrics are essential for making informed decisions, optimizing routes, and improving customer satisfaction. Manual data processing and reporting quickly becomes a drain on resources, automation saves time and reduces errors.
 
-## Introduction
+Many teams start with Excel: formulas, pivot tables, and sometimes VBA macros. Learning VBA can be worthwhile, but if you're investing time in a programming language for data work, R and Python are the common choices. I personally chose R because it has many libraries tailored to data-analysis pipelines and idioms that are familiar to people used to spreadsheet formulas.
 
-In the world of transportation and logistics, having accurate and up-to-date information about trip metrics is essential for making informed decisions, optimizing routes, and improving customer satisfaction. Manual data processing and reporting can be a significant waste of resources, and automation can help you save time and effort.
+## Data collection
 
-## Data Preparation
+The first step is defining the dataset and the features of interest. In our case we exported a sample CSV from a telematics API with trip-level details. Key features include `start_time`, `end_time`, `distance`, and `load_weight`. Defining these features up front helps identify the KPIs that matter for monitoring operations.
 
-Before automating the data processing, we need to prepare our data. We will use a sample dataset of trip information, including the start and end times, distances, and the number of passengers. The data can be stored in a CSV file, which we will read into R using the `read.csv()` function.
+## Data Processing
 
-```r
-trip_data <- read.csv("trip_data.csv")
-```
+Once the data is loaded into R, you can use R’s data manipulation tools to calculate the metrics needed for the report. The `dplyr` package makes these calculations clean and expressive.
 
-### Processing the Data
+Here’s a simple example. We compute trip duration (minutes), average speed (km/h), and revenue using a configurable `rate_per_km`. (Replace `rate_per_km` with your actual rate or a formula that matches your pricing model.)
 
-Once the data is loaded into R, we can use R's powerful data processing and manipulation capabilities to calculate the metrics we need for our report. For example, we can calculate the total distance traveled, the average speed, and the total revenue generated. We will use the `dplyr` library to make these calculations as clean and efficient as possible.
 
 ```r
 library(dplyr)
+library(lubridate)
+
+rate_per_km <- 0.10
 
 trip_metrics <- trip_data %>%
-	mutate(
-	duration = as.numeric(difftime(end_time, start_time, units = "mins")),
-	avg_speed = distance / (duration / 60),
-	revenue = distance * 0.1 * num_passengers
-	)
+  mutate(
+    start_time = ymd_hms(start_time),
+    end_time   = ymd_hms(end_time),
+    duration   = as.numeric(difftime(end_time, start_time, units = "mins")),
+    avg_speed  = ifelse(duration > 0, distance / (duration / 60), NA_real_),
+  )
 ```
 
-
-
-### Generating the Report
-
-Now that the data is processed, we can use [R Markdown](https://rmarkdown.rstudio.com/) to generate the report. R Markdown is a format for creating reproducible reports that allows us to embed R code directly into the report. This means we can easily include our data processing code and the results of our calculations in our report.
-
-We can use R Markdown's powerful formatting and presentation capabilities to create a clear and professional report. For example, we can create tables to display the results of our data processing and use graphs to visualize trends and patterns in the data.
+Example summaries you might include in the report:
 
 ```r
-# Total distance traveled 
-sum(trip_metrics$distance)    # Average speed 
-mean(trip_metrics$avg_speed)  # Total revenue generated 
-sum(trip_metrics$revenue)
+# Totals and averages
+total_distance <- sum(trip_metrics$distance, na.rm = TRUE)
+average_speed  <- mean(trip_metrics$avg_speed, na.rm = TRUE)
+total_revenue  <- sum(trip_metrics$revenue, na.rm = TRUE)
+
+total_distance
+average_speed
+total_revenue
 ```
 
-### Conclusion
+## Generating the report
 
-In this article, we have demonstrated how to automate the data processing of your metrics reporting using R. By automating data processing, you can save time and resources, and ensure that your reports are accurate and up-to-date. With R, you can easily manipulate and process data to generate informative reports that aid in decision-making.
+One option is to use [R Markdown](https://rmarkdown.rstudio.com/) to create reproducible reports that embed code, output, and explanation in one file. R Markdown supports HTML, PDF and Word outputs, and can be rendered on a schedule (e.g., with cron or RStudio Connect) or on demand.
+
+Another option is [R Shiny](https://shiny.posit.co/), which allows you to build interactive dashboards where users can explore data, filter by time periods, and drill down into specific metrics. Shiny apps can be deployed on a server or hosted with services like [ShinyApps.io](https://www.shinyapps.io/).
+
+A few practical tips:
+
+- Use `knitr::kable()` or `gt` for clean tables.
+- Use `ggplot2` for visualizations (time series of distance, heatmaps of routes, speed distributions).
+- Keep code chunks small and annotated so the report is both readable and reproducible.
+- Add a short summary at the top for team members who want the highlights.
+
+## Conclusion
+
+Automating metric calculation and report generation with R reduces manual effort, improves consistency, and makes it easier to track performance over time.
