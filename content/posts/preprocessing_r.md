@@ -15,14 +15,11 @@ The first step is defining the dataset and the features of interest. In our case
 
 Once the data is loaded into R, you can use R’s data manipulation tools to calculate the metrics needed for the report. The `dplyr` package makes these calculations clean and expressive.
 
-Here’s a simple example. We compute trip duration (minutes), average speed (km/h), and revenue using a configurable `rate_per_km`. (Replace `rate_per_km` with your actual rate or a formula that matches your pricing model.)
-
+Here’s a simple example. We compute trip duration (minutes), average speed (km/h):
 
 ```r
 library(dplyr)
 library(lubridate)
-
-rate_per_km <- 0.10
 
 trip_metrics <- trip_data %>%
   mutate(
@@ -39,11 +36,9 @@ Example summaries you might include in the report:
 # Totals and averages
 total_distance <- sum(trip_metrics$distance, na.rm = TRUE)
 average_speed  <- mean(trip_metrics$avg_speed, na.rm = TRUE)
-total_revenue  <- sum(trip_metrics$revenue, na.rm = TRUE)
 
 total_distance
 average_speed
-total_revenue
 ```
 
 ## Generating the report
