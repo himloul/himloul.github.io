@@ -7,7 +7,7 @@ This article shares the context behind creating a custom map to visualize resear
 
 <figure align="center">
   <img src="assets/images/bmscmap.jpg" alt="Each color on this map represents a different membership category within the research community" width="70%">
-  <figcaption>A red bicycle leaning against a blue wall.</figcaption>
+  <figcaption>Each color on this map represents a different membership category within the research community</figcaption>
 </figure>
 
 ## The challenge
