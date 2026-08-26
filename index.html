@@ -1,15 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; URL=https://himloul.pages.dev/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hamza Imloul</title>
+  <link rel="canonical" href="https://himloul.pages.dev/">
+  <script>document.documentElement.dataset.theme=localStorage.theme||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')</script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri&family=Crimson+Pro:wght@500&family=Source+Sans+3:wght@400;500&display=swap">
+  <style>
+    :root { --bg:#fff; --lc:#ddd6cc; --c:#6b6258; --t:#3a3632; --h:#221f1c; }
+    [data-theme="dark"] { --bg:#1a1a1e; --lc:#2e2e34; --c:#8a8a90; --t:#d4d0cc; --h:#ece8e2; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      font: 15px/1.6 "Source Sans 3", sans-serif; background: var(--bg); color: var(--t);
+    }
+    main { max-width: 650px; width: 100%; padding: 0 1.5rem; text-align: center; }
+    h1 { font: 500 2rem/1.6 "Crimson Pro", serif; color: var(--h); margin: 0 0 .4rem; }
+    p { font: 1.5rem/1.6 "Amiri", serif; color: var(--c); margin: 0 0 1.5rem; }
+
+    /* Navigation List */
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .5rem;
+    }
+    a {
+      display: inline-flex; align-items: center; justify-content: center;
+      color: var(--c); font-weight: 500; text-decoration: underline var(--lc);
+      text-underline-offset: 3px; padding: .55em .35em; border-radius: 8px; transition: .2s;
+    }
+    a:hover { color: var(--h); text-decoration-color: var(--c); }
+    a:focus-visible { outline: 2px solid var(--h); outline-offset: 3px; }
+
+    /* Desktop Layout (Single row with non-clickable separators on <li>) */
+    @media (min-width: 520px) {
+      nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+      }
+      nav li {
+        display: inline-flex;
+        align-items: center;
+      }
+      nav li + li::before {
+        content: "·";
+        color: var(--c);
+        padding: 0 .4rem;
+        user-select: none;
+        pointer-events: none;
+      }
+    }
+  </style>
 </head>
 <body>
-    <script>
-        // Redirect visitor to the same page on the new domain
-        window.location.replace("https://himloul.pages.dev" + window.location.pathname + window.location.search);
-    </script>
-    <p>Moved to <a href="https://himloul.pages.dev/">himloul.pages.dev</a></p>
+  <main>
+    <h1>Hamza Imloul</h1>
+    <p lang="ar" dir="rtl">حمزة إملول</p>
+    <nav>
+      <ul>
+        <li><a href="https://himloul.pages.dev/">Website</a></li>
+        <li><a href="https://github.com/himloul">GitHub</a></li>
+        <li><a href="https://www.behance.net/himloul">Behance</a></li>
+        <li><a href="https://bsky.app/profile/himloul.bsky.social">Bluesky</a></li>
+      </ul>
+    </nav>
+  </main>
 </body>
 </html>
