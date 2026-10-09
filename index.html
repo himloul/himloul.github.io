@@ -33,12 +33,9 @@
     nav ul { list-style: none; padding: 0; }
     nav li { border-top: 1px solid var(--rule); }
     nav li:last-child { border-bottom: 1px solid var(--rule); }
-    a { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 0; color: var(--text); text-decoration: none; font-weight: 500; }
+    a { display: block; padding: 0.75rem 0; color: var(--text); text-decoration: none; font-weight: 500; }
     a:hover { text-decoration: underline; text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
     a:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
-    nav a::after { content: "↗"; font-size: 0.85em; color: var(--muted); transition: transform 0.15s; }
-    nav a:hover::after { transform: translate(2px, -2px); }
-    @media (prefers-reduced-motion: reduce) { * { transition: none; } }
   </style>
 </head>
 <body>
